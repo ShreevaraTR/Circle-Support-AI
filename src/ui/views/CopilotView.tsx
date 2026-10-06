@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { DEMO_TICKETS } from '../../data/demoTickets';
+import { DEMO_DATASET_LABEL, DEMO_TICKETS } from '../../data/demoTickets';
 import { KNOWLEDGE_BASE } from '../../data/knowledge';
 import { analyzeSupportIssue, CATEGORY_LABELS } from '../../engine';
 import type { DemoTicket, EscalationLevel, SupportAnalysis } from '../../engine/types';
@@ -153,6 +153,9 @@ function TicketContext({ ticket }: { ticket: DemoTicket }) {
         <SeverityPill level={ticket.severity} />
         <StatusPill status={ticket.status} />
       </span>
+      <div className="small" style={{ flexBasis: '100%', color: 'var(--demo)', fontWeight: 600 }} data-testid="ticket-disclaimer">
+        {DEMO_DATASET_LABEL}
+      </div>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { DEMO_TICKETS } from '../data/demoTickets';
 import { KNOWLEDGE_BASE } from '../data/knowledge';
 import { getSupportEngine } from '../engine';
@@ -18,6 +19,18 @@ const NAV: { route: Route; label: string; icon: string; count?: number }[] = [
 
 export function App() {
   const route = useHashRoute();
+  const routeKey = route.view === 'copilot' ? `copilot/${route.ticketId ?? ''}` : route.view;
+  const prevView = useRef(route.view);
+
+  // Each view opens at the top — otherwise a ticket clicked low in the list opens the
+  // Copilot scrolled past its ticket header (most noticeable on mobile). Leaving a ticket
+  // for a plain Copilot example stays put so the Copilot can scroll to its results.
+  useEffect(() => {
+    const stayingInCopilot = prevView.current === 'copilot' && route.view === 'copilot' && !route.ticketId;
+    prevView.current = route.view;
+    if (!stayingInCopilot) window.scrollTo?.(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [routeKey]);
 
   return (
     <div className="app">

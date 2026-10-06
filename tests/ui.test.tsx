@@ -26,6 +26,7 @@ describe('Demo tickets → Copilot workflow', () => {
       const context = await screen.findByTestId('ticket-context');
       expect(within(context).getByText(id)).toBeInTheDocument();
       expect(within(context).getByText('Demo data')).toBeInTheDocument();
+      expect(within(context).getByTestId('ticket-disclaimer')).toHaveTextContent('Synthetic support scenarios — created for this portfolio prototype. Not Circle customer data.');
       expect((screen.getByPlaceholderText("Describe the customer's problem…") as HTMLTextAreaElement).value).toContain(ticket.body);
 
       const analysis = await screen.findByTestId('analysis');
