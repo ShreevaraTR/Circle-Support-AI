@@ -1,0 +1,34 @@
+{
+  "name": "circle-support-copilot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portfolio prototype: a support-specialist copilot built on public Circle Help Center documentation and synthetic demo tickets. Not affiliated with Circle.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "kb:build": "NODE_USE_ENV_PROXY=1 node scripts/build-kb.mjs",
+    "kb:recategorize": "node scripts/build-kb.mjs --offline"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "jsdom": "^29.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  }
+}

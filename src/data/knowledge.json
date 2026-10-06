@@ -1,0 +1,3659 @@
+{
+  "source": "Circle Help Center (public)",
+  "retrievedVia": "Brave Search API — search-result titles, URLs and snippets only",
+  "retrievedAt": "2026-10-06",
+  "articles": [
+    {
+      "id": "p_sso-and-integrations_sso_set-up-custom-sso",
+      "title": "Set up custom SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-custom-sso",
+      "snippet": "Circle supports single sign-on (SSO) via OAuth 2.0.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-memberspace-sso",
+      "title": "Set up MemberSpace SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-memberspace-sso",
+      "snippet": "Navigate back to the Circle community and locate your Callback URL. To navigate to the SSO settings page, click the community name or logo in the top-left corner and select Settings. From the sidebar menu, click Single sign-on.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-memberstack-sso",
+      "title": "Set up Memberstack SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-memberstack-sso",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-outseta-sso",
+      "title": "Set up Outseta SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-outseta-sso",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-memberful-sso",
+      "title": "Set up Memberful SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-memberful-sso",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_get-to-know-the-community-switcher",
+      "title": "Get to know the community switcher",
+      "url": "https://help.circle.so/p/basics/customization/get-to-know-the-community-switcher",
+      "snippet": "My community has single sign-on (SSO) enabled.",
+      "section": "basics / customization",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_signing-in-to-your-circle-admin-account",
+      "title": "Signing in to your Circle admin account",
+      "url": "https://help.circle.so/p/basics/getting-started/signing-in-to-your-circle-admin-account",
+      "snippet": "When you enable Single sign on (SSO) for your community, you have the option to allow users to sign in with their existing Circle account.",
+      "section": "basics / getting-started",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_change-your-circle-account-email",
+      "title": "Change your Circle account email",
+      "url": "https://help.circle.so/p/members/account-access-management/change-your-circle-account-email",
+      "snippet": "If the community you are trying to access uses a single sign-on to log in to your community, you won't be able to update your email in Circle. You must update your email on the SSO provider instead.",
+      "section": "members / account-access-management",
+      "category": "email",
+      "categories": [
+        "email",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso",
+      "title": "SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso",
+      "snippet": "",
+      "section": "sso-and-integrations",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "c_sso_how-do-i-integrate-circle-with-memberful-sso",
+      "title": "How do I integrate Circle with Memberful SSO?",
+      "url": "https://help.circle.so/c/sso/how-do-i-integrate-circle-with-memberful-sso",
+      "snippet": "Circle supports Single Sign-On (SSO), and you can now integrate Circle with Memberful, making it a seamless experience for your Memberful members to log in to your community! These members won't have to sign up or log in with their Circle account — ins...",
+      "section": "sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations",
+      "title": "SSO and integrations",
+      "url": "https://help.circle.so/p/sso-and-integrations",
+      "snippet": "",
+      "section": "",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_sso-and-integrations_sso_disabling-sso",
+      "title": "Disabling SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/disabling-sso",
+      "snippet": "Scroll down to the Community section and select Single Sign-On · Turn off the Enable SSO toggle.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_sso_how-do-i-integrate-circle-with-memberspace",
+      "title": "How do I integrate Circle with MemberSpace?",
+      "url": "https://help.circle.so/c/sso/how-do-i-integrate-circle-with-memberspace",
+      "snippet": "Since Circle supports Single Sign-On (SSO) via OAuth, you can now integrate Circle with MemberSpace, making it a seamless experience for your MemberSpace members to log in to your community! These members won't have to sign up or log in with their Circ...",
+      "section": "sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_sso_how-do-i-integrate-with-outseta-sso",
+      "title": "How do I integrate Circle with Outseta SSO?",
+      "url": "https://help.circle.so/c/sso/how-do-i-integrate-with-outseta-sso",
+      "snippet": "Since Circle supports Single Sign-On (SSO) via OAuth, you can now integrate Circle with Outseta, making it a seamless experience for your Outseta members to log in to your community! These members won't have to sign up or log in with their Circle acc...",
+      "section": "sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_deactivating-your-member-account",
+      "title": "Deactivating your member account",
+      "url": "https://help.circle.so/p/members/account-access-management/deactivating-your-member-account",
+      "snippet": "You can only deactivate your account if you log in to your community using your Circle account email and password. If you have logged in through an SSO (Single sign-on) provider, the Authentication settings—including email and password changes as well as account deactivation—will not be available.",
+      "section": "members / account-access-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_manage-custom-terms-of-service-and-privacy-policy-for-your-community",
+      "title": "Manage custom terms of service and privacy policy for your community",
+      "url": "https://help.circle.so/p/basics/customization/manage-custom-terms-of-service-and-privacy-policy-for-your-community",
+      "snippet": "❗Important: If your community has enabled single sign-on (SSO), members cannot create accounts directly on Circle; they must do so through the SSO provider's platform. As a result, the terms of service and privacy policy won't be displayed in the signup flow.",
+      "section": "basics / customization",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_trouble-logging-in",
+      "title": "Trouble logging in",
+      "url": "https://help.circle.so/p/members/account-access-management/trouble-logging-in",
+      "snippet": "These saved credentials can sometimes be out-of-date and auto-fill the wrong information. Please ensure that you are typing in your email and password to avoid outdated saved credentials preventing login.",
+      "section": "members / account-access-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_change-your-account-password",
+      "title": "Change your account password",
+      "url": "https://help.circle.so/p/members/account-access-management/change-your-account-password",
+      "snippet": "",
+      "section": "members / account-access-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management",
+      "title": "Account access and management",
+      "url": "https://help.circle.so/p/members/account-access-management",
+      "snippet": "",
+      "section": "members",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_audience_onboarding_guide-members-through-the-community-onboarding-process",
+      "title": "Guide members through the community onboarding process",
+      "url": "https://help.circle.so/p/audience/onboarding/guide-members-through-the-community-onboarding-process",
+      "snippet": "Use your email and existing password for the Circle account and click Sign in. When signing up for a public community, you may be asked to verify your email using a six-digit authentication code that will be sent to your email address.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_fixing-3rd-party-cookie-login-issues",
+      "title": "Fixing 3rd-party cookie login issues",
+      "url": "https://help.circle.so/p/audience/member-management/fixing-3rd-party-cookie-login-issues",
+      "snippet": "You might enter the correct email and password, only to find that nothing happens and you can't enter the community. Many describe this as being \"stuck in a loop.\" The cause of this is Safari's strict privacy settings called 'Block all cookies' and 'Prevent cross-site tracking.' If these were enabled in the past, it could prevent websites from working and block data needed during a login ...",
+      "section": "audience / member-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_auto-login-members-from-sso-to-your-community",
+      "title": "Auto-login members from SSO to your community",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/auto-login-members-from-sso-to-your-community",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_member-management_how-do-i-fix-3rd-party-cookie-login-issues",
+      "title": "How do I fix 3rd-party cookie login issues?",
+      "url": "https://help.circle.so/c/member-management/how-do-i-fix-3rd-party-cookie-login-issues",
+      "snippet": "When using Safari on an iOS device, you may have issues logging in to a community, whether in a browser or an embed. You might enter the correct email and password, only to find that nothing happens and you can't enter the community. Many describe this...",
+      "section": "member-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_how-to-get-support-if-you-re-locked-out-of-a-community",
+      "title": "How to get support if you’re locked out of a community",
+      "url": "https://help.circle.so/p/basics/getting-started/how-to-get-support-if-you-re-locked-out-of-a-community",
+      "snippet": "If you’re having trouble accessing your community, try the tips outlined below. If you still can’t log in, you can fill out the support form for additional help. If you are an admin, start by checking your login email and resetting your password.",
+      "section": "basics / getting-started",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_get-to-know-the-circle-desktop-app",
+      "title": "Get to know the Circle desktop app",
+      "url": "https://help.circle.so/p/basics/getting-started/get-to-know-the-circle-desktop-app",
+      "snippet": "Once you have installed the app, sign in using the email address associated with your community account. An OTP (One-time password) will be sent to your email address.",
+      "section": "basics / getting-started",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-auth0-sso",
+      "title": "Set up Auth0 SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-auth0-sso",
+      "snippet": "Sign in with test user credentials. If you would like, make changes to your login page in your Auth0 account as per your preference by navigating to Branding → Universal Login.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-wordpress-sso",
+      "title": "Set up WordPress SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-wordpress-sso",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_implementing-sso-using-oidc",
+      "title": "Implementing SSO using OIDC",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/implementing-sso-using-oidc",
+      "snippet": "Our OAuth flow does not support JSON Web Tokens (JWTs), which will cause errors when using any OIDC platforms layered on top of OAuth 2.0.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_troubleshoot-your-wordpress-sso-integration",
+      "title": "Troubleshoot your WordPress SSO integration",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/troubleshoot-your-wordpress-sso-integration",
+      "snippet": "The settings page should have 'OAuth Server Enabled' checked.",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_teachable_integrate-circle-with-teachable-sso",
+      "title": "Integrate Circle with Teachable SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/teachable/integrate-circle-with-teachable-sso",
+      "snippet": "Navigate back to the SSO settings page and select Teachable as the OAuth provider.",
+      "section": "sso-and-integrations / teachable",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_set-up-bubble-sso",
+      "title": "Set up Bubble SSO",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/set-up-bubble-sso",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_iframes_embed-circle-on-my-website",
+      "title": "Embed Circle on my website",
+      "url": "https://help.circle.so/p/sso-and-integrations/iframes/embed-circle-on-my-website",
+      "snippet": "",
+      "section": "sso-and-integrations / iframes",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_create-an-api-token-in-your-community",
+      "title": "Create an API token",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/create-an-api-token-in-your-community",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api",
+      "title": "API",
+      "url": "https://help.circle.so/p/sso-and-integrations/api",
+      "snippet": "",
+      "section": "sso-and-integrations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_sso-and-integrations_sso_onboarding-members-to-your-sso-enabled-community",
+      "title": "Onboarding members to your SSO-enabled community",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/onboarding-members-to-your-sso-enabled-community",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_circle-live-overview",
+      "title": "Circle live overview",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/circle-live-overview",
+      "snippet": "Flexible live options: Go live in your community using live streams and live rooms via a desktop, mobile browser, or Circle iOS and Android apps.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_host-a-live-stream-in-your-community",
+      "title": "Host a live stream in your community",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/host-a-live-stream-in-your-community",
+      "snippet": "Choose who can access the live stream from your community. You can go live with a particular group of members based on their member tags, space or space group memberships, or even the specific members you choose.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_using-circle-live-feature-with-events",
+      "title": "Guide to Circle live events",
+      "url": "https://help.circle.so/p/live-and-events/events/using-circle-live-feature-with-events",
+      "snippet": "Live stream: Attendees watch while engaging through chat and Q&A.",
+      "section": "live-and-events / events",
+      "category": "live",
+      "categories": [
+        "live",
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-engagement_join-a-live-stream",
+      "title": "Join a live stream",
+      "url": "https://help.circle.so/p/live-and-events/live-engagement/join-a-live-stream",
+      "snippet": "",
+      "section": "live-and-events / live-engagement",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_host-a-public-live-stream-in-your-community",
+      "title": "Host a public live stream in your community",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/host-a-public-live-stream-in-your-community",
+      "snippet": "",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_live-and-events_participate-in-the-live-stream",
+      "title": "Participate in the live stream",
+      "url": "https://help.circle.so/p/members/live-and-events/participate-in-the-live-stream",
+      "snippet": "",
+      "section": "members / live-and-events",
+      "category": "live",
+      "categories": [
+        "live",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-management_utilizing-the-live-dashboard",
+      "title": "Guide to the live dashboard",
+      "url": "https://help.circle.so/p/live-and-events/live-management/utilizing-the-live-dashboard",
+      "snippet": "To access the dashboard, click Community in the left sidebar, then select Live streams.",
+      "section": "live-and-events / live-management",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_create-paid-events",
+      "title": "Create paid events",
+      "url": "https://help.circle.so/p/live-and-events/events/create-paid-events",
+      "snippet": "Note that the public live streams are not supported for paid events. The Disable live link sharing setting is also turned on by default.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-engagement_co-host-a-live-stream",
+      "title": "Co-host a live stream",
+      "url": "https://help.circle.so/p/live-and-events/live-engagement/co-host-a-live-stream",
+      "snippet": "Live stream chat helps you connect and engage in discussions with other participants. To access the chat panel, click Chat 💬 on the control bar.",
+      "section": "live-and-events / live-engagement",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_get-to-know-public-live-streams",
+      "title": "Get to know public live streams",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/get-to-know-public-live-streams",
+      "snippet": "Visitors can access the live stream in several ways, depending on your preference and whether your community is public or private: Public live URL: This is one of the most convenient options when you want to share a direct link with visitors to join the live stream.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-engagement_join-a-live-stream-as-a-co-host",
+      "title": "Join a live stream as a co-host",
+      "url": "https://help.circle.so/p/live-and-events/live-engagement/join-a-live-stream-as-a-co-host",
+      "snippet": "",
+      "section": "live-and-events / live-engagement",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_live-engagement_how-do-i-join-a-live-stream-in-my-community",
+      "title": "How do I join a live stream in my community?",
+      "url": "https://help.circle.so/c/live-engagement/how-do-i-join-a-live-stream-in-my-community",
+      "snippet": "🟡 Member-focused article | Last updated: May 14, 2023 You can join a live stream in your community using a desktop, mobile browser, or iOS app. DesktopLet's explore the various ways you can join the live stream, depending on the setup chosen by the adm...",
+      "section": "live-engagement",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_live-streams_live-streams-going-live",
+      "title": "How do I go live with Live Streams?",
+      "url": "https://help.circle.so/c/live-streams/live-streams-going-live",
+      "snippet": "Here’s an overview of the Live Streams journey from set-up to wrap-up. “🔵 Article: What is Live Streams?” Get ready…Start by clicking on Go Live at the bottom left of your community. Stream details• Give your stream a title and description. These will...",
+      "section": "live-streams",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_invite-members-to-co-host-a-live-stream",
+      "title": "Invite members to co-host a live stream",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/invite-members-to-co-host-a-live-stream",
+      "snippet": "",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-management_view-and-increase-the-live-limits-of-your-community-plan",
+      "title": "Understanding Circle live limits",
+      "url": "https://help.circle.so/p/live-and-events/live-management/view-and-increase-the-live-limits-of-your-community-plan",
+      "snippet": "Live streams (with or without recording): Live streams also have a maximum duration of 8 hours.",
+      "section": "live-and-events / live-management",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_allow-non-members-to-rsvp-to-events",
+      "title": "Allow non-members to RSVP to events",
+      "url": "https://help.circle.so/p/live-and-events/events/allow-non-members-to-rsvp-to-events",
+      "snippet": "If the event uses a Circle live room or live stream location, non-members can join the session from the event page via their confirmation email.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup",
+      "title": "Live setup",
+      "url": "https://help.circle.so/p/live-and-events/live-setup",
+      "snippet": "",
+      "section": "live-and-events",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_administration_analytics_message-analytics",
+      "title": "Message analytics",
+      "url": "https://help.circle.so/p/administration/analytics/message-analytics",
+      "snippet": "View the total number of direct message conversations, group message conversations, chat spaces, and live events, including instant live stream/room sessions and Circle live stream/room events.",
+      "section": "administration / analytics",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_utilizing-backstage-for-live-streams",
+      "title": "Utilizing backstage for live streams",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/utilizing-backstage-for-live-streams",
+      "snippet": "You can choose as few as 2 tiles or go all the way up to a maximum of 16 tiles per page in both gallery and speaker views.📚 For more information, see Change the live video layout. Once you are ready to start streaming, on the control bar, click Go live, and then confirm in the dialog.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_live-and-events_join-a-live-room",
+      "title": "Join a live room",
+      "url": "https://help.circle.so/p/members/live-and-events/join-a-live-room",
+      "snippet": "",
+      "section": "members / live-and-events",
+      "category": "live",
+      "categories": [
+        "live",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_live-and-events_join-a-live-stream",
+      "title": "Join a live stream",
+      "url": "https://help.circle.so/p/members/live-and-events/join-a-live-stream",
+      "snippet": "Click Join as participant. If the admin or live attendee has shared a live stream URL with you, you can use it to join the stream from your web or mobile browser:",
+      "section": "members / live-and-events",
+      "category": "live",
+      "categories": [
+        "live",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_host-a-live-room-in-your-community",
+      "title": "Host a live room in your community",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/host-a-live-room-in-your-community",
+      "snippet": "",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_understanding-visibility-options-for-instant-live-sessions",
+      "title": "Understanding visibility options for instant live sessions",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/understanding-visibility-options-for-instant-live-sessions",
+      "snippet": "However, if you have turned off the Disable live link sharing option, you and your live attendees can share a private stream or room URL with any member not included in your invited members (attendees) list to have them join the live session.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events",
+      "title": "Live and events",
+      "url": "https://help.circle.so/p/live-and-events",
+      "snippet": "With Circle live streams and live rooms, host instant live sessions or organize them via events, enabling you to connect and engage with your members on a deeper level. Personalize your event spaces with distinct layouts and configurations. Showcase your event directory to make it easy for members to discover and join events.",
+      "section": "",
+      "category": "live",
+      "categories": [
+        "live",
+        "events"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_live-and-events_events_access-event-attendee-list",
+      "title": "View and download your event attendee list",
+      "url": "https://help.circle.so/p/live-and-events/events/access-event-attendee-list",
+      "snippet": "Join a live stream or live room event directly from the event details page or event space after it has started (automatic RSVP).",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_hosting-circle-live-events",
+      "title": "Hosting Circle live events",
+      "url": "https://help.circle.so/p/live-and-events/events/hosting-circle-live-events",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "live",
+      "categories": [
+        "live",
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-engagement_participate-in-the-live-room",
+      "title": "Participate in the live room",
+      "url": "https://help.circle.so/p/live-and-events/live-engagement/participate-in-the-live-room",
+      "snippet": "",
+      "section": "live-and-events / live-engagement",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_live-setup_hosting-multiple-live-sessions-simultaneously",
+      "title": "Hosting multiple live sessions simultaneously",
+      "url": "https://help.circle.so/p/live-and-events/live-setup/hosting-multiple-live-sessions-simultaneously",
+      "snippet": "For multiple events scheduled to begin simultaneously or around the same time, each event host can directly start the live session from the event details page. Attendees of the events can join either from the event details page or through live notifications.",
+      "section": "live-and-events / live-setup",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_workflows-roadmap",
+      "title": "Understanding supported workflow triggers, audience rules, and actions",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/workflows-roadmap",
+      "snippet": "Once a member joins the space, the workflow will perform actions you’ve set up, like sending a welcome email or adding a tag to the member's profile.",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_assign-a-community-member-as-an-event-host",
+      "title": "Assign a community member as an event host",
+      "url": "https://help.circle.so/p/live-and-events/events/assign-a-community-member-as-an-event-host",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_paywalls-overviews",
+      "title": "Getting started with Circle paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-setup/paywalls-overviews",
+      "snippet": "Similar to common subscription ... plan. One-time fee: Charge members a single one-time payment, granting them lifetime access to the paywalled content without any future recurring payments....",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_manage-payment-method-availability-for-paywalls",
+      "title": "Manage payment method availability for paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-management/manage-payment-method-availability-for-paywalls",
+      "snippet": "Master the paywall management with our comprehensive guides.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_paywall-transaction-fees",
+      "title": "Paywall transaction fees",
+      "url": "https://help.circle.so/p/payments/paywall-setup/paywall-transaction-fees",
+      "snippet": "Stripe’s standard payment processing fee for cards and supported wallets typically starts at 2.9% + $0.30. This includes cards, Link, PIX (available to communities with Stripe accounts registered in Brazil), Google Pay, and Apple Pay. We use additional Stripe features depending on the paywall pricing to better support our paywalls:",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_set-up-a-paywall",
+      "title": "Set up a paywall",
+      "url": "https://help.circle.so/p/payments/paywall-setup/set-up-a-paywall",
+      "snippet": "Before you start, make sure your Circle community is connected to a Stripe account. Once that’s set up, you’re ready to create your first paywall. Click Payments in the left sidebar and then select Paywalls.",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_offer-installment-pricing-options-for-paywalls",
+      "title": "Offer installment pricing options for paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-setup/offer-installment-pricing-options-for-paywalls",
+      "snippet": "",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management",
+      "title": "Paywall management",
+      "url": "https://help.circle.so/p/payments/paywall-management",
+      "snippet": "Create and manage paywall subscriptions from member profiles · View all member subscriptions · Change the billing date, billing cycle or plan for member subscriptions · Add or update a member's billing details · Add or update a member's payment method · Manage coupons ·",
+      "section": "payments",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_payments_paywall-management_utilize-workflows-for-paywall-related-tasks",
+      "title": "Utilize workflows for paywall-related tasks",
+      "url": "https://help.circle.so/p/payments/paywall-management/utilize-workflows-for-paywall-related-tasks",
+      "snippet": "Within any type of workflow, there are two dedicated workflow actions available for paywalls. This workflow action enables the creation of a trial subscription for a member with a customizable trial duration. It works for both recurring subscription and installment pricing without upfront payments.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-trials_offer-paywall-trials",
+      "title": "Offer paywall trials",
+      "url": "https://help.circle.so/p/payments/paywall-trials/offer-paywall-trials",
+      "snippet": "You can set up a paid trial using an upfront payment configuration in both subscription and installment pricing. For instance, you can set up a paywall with an upfront payment of $20 for a trial period of 30 days.",
+      "section": "payments / paywall-trials",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_explore-pricing-options-for-paywalls",
+      "title": "Explore pricing options for paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-setup/explore-pricing-options-for-paywalls",
+      "snippet": "Upfront payments: Charge your member a distinct initial payment with installment prices. Trials: Offer your members free or paid trials for your installment paywalls.",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_understanding-paywall-notifications",
+      "title": "Understand and manage paywall notifications from Circle and Stripe",
+      "url": "https://help.circle.so/p/payments/paywall-management/understanding-paywall-notifications",
+      "snippet": "This notification encourages members to renew their subscription or installment plan if they want to access paywalled content again. From your Stripe account, you can also enable billing-related email notifications such as trials, renewals, failed payments, successful charges, and refunds.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_connect-a-stripe-account-for-paywalls",
+      "title": "Connect a Stripe account for paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-setup/connect-a-stripe-account-for-paywalls",
+      "snippet": "",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_viewing-and-managing-paywalls",
+      "title": "Viewing and managing paywalls",
+      "url": "https://help.circle.so/p/payments/paywall-management/viewing-and-managing-paywalls",
+      "snippet": "In addition to managing paywalls, you can utilize the Paywalls sidebar menu to manage coupons, subscription groups, subscriptions and transactions, taxes, and settings (payment methods).",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_create-and-manage-paywall-subscriptions-from-member-profiles",
+      "title": "Create and manage paywall subscriptions from member profiles",
+      "url": "https://help.circle.so/p/payments/paywall-management/create-and-manage-paywall-subscriptions-from-member-profiles",
+      "snippet": "If a member has a payment method added to their member account, you will be able to charge the member for this subscription. We recommend enabling override access because it will help replace · invite access that the member had for the same content with access granted by this new paywall subscription.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_view-all-member-subscriptions",
+      "title": "View all member subscriptions",
+      "url": "https://help.circle.so/p/payments/paywall-management/view-all-member-subscriptions",
+      "snippet": "Paywall: Search for subscriptions tied to a specific paywall by selecting its name. Start date: Select from predefined date ranges or define a custom range to focus on subscriptions activated within a specific timeframe. Subscription ID: Directly search for subscriptions based on their unique identification number. Total amount paid: Select the minimum and maximum amount paid to filter by the payment amount.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_understanding-the-paywall-checkout-flow",
+      "title": "Understanding the paywall checkout flow",
+      "url": "https://help.circle.so/p/payments/paywall-setup/understanding-the-paywall-checkout-flow",
+      "snippet": "",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup",
+      "title": "Paywall setup",
+      "url": "https://help.circle.so/p/payments/paywall-setup",
+      "snippet": "Allow members to repurchase one-time fee paywalls · Set up upfront payments for subscription and installment prices · Onboard members to your community via paywalls · Preview your community’s paywall access · Gate spaces behind paywalls · Set up subscription groups ·",
+      "section": "payments",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_payments_paywall-management_view-all-member-transactions",
+      "title": "View all member transactions",
+      "url": "https://help.circle.so/p/payments/paywall-management/view-all-member-transactions",
+      "snippet": "Paid: When a member’s payment is successful, you will see the paid status for the transaction. If a member initiates a free trial for a paywall, you will see a transaction with paid status for a $0 amount.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_archive-or-delete-a-paywall",
+      "title": "Archive or delete a paywall",
+      "url": "https://help.circle.so/p/payments/paywall-management/archive-or-delete-a-paywall",
+      "snippet": "To get started, navigate to the paywalls page by clicking Payments in the left sidebar, then selecting Paywalls.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_making-a-test-transaction",
+      "title": "Making a test transaction",
+      "url": "https://help.circle.so/p/payments/paywall-setup/making-a-test-transaction",
+      "snippet": "To test the member payments experience, admins can set up a test user and use one of the paywalls they’ve already set up.",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_offer-members-the-option-to-pay-with-buy-now-pay-later",
+      "title": "Offer members the option to pay with buy now, pay later",
+      "url": "https://help.circle.so/p/payments/paywall-setup/offer-members-the-option-to-pay-with-buy-now-pay-later",
+      "snippet": "",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_cancel-member-subscriptions",
+      "title": "Cancel member subscriptions",
+      "url": "https://help.circle.so/p/payments/paywall-management/cancel-member-subscriptions",
+      "snippet": "If you issue a refund directly through your Stripe dashboard, Circle's transaction fees won't get refunded. 💡 Tip: If you would like to provide a custom refund amount for any paywall transaction manually, see Refund member payments. If a member is subscribed to a paywall with a recurring subscription, you also have the option to cancel their paywall subscription at the end of their current billing cycle.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_automatically-remove-member-s-paywall-access-upon-cancellation-or-failed-payments",
+      "title": "Set up failed payment settings and customer emails in Stripe",
+      "url": "https://help.circle.so/p/payments/paywall-management/automatically-remove-member-s-paywall-access-upon-cancellation-or-failed-payments",
+      "snippet": "Stripe’s failed payment configuration lets you customize how often Stripe retries failed payments, how long it waits before canceling a subscription or installment plan, and what notifications customers receive along the way.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "email",
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_account_canceling-your-community-plan",
+      "title": "Canceling your community plan",
+      "url": "https://help.circle.so/p/administration/account/canceling-your-community-plan",
+      "snippet": "You must cancel any active member subscriptions in your community and provide refunds, if any. Your Stripe business for the paywall integration will remain active.",
+      "section": "administration / account",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_understanding-prorated-charges-and-credits-for-subscription-changes",
+      "title": "Understanding prorated charges and credits for subscription changes",
+      "url": "https://help.circle.so/p/payments/paywall-management/understanding-prorated-charges-and-credits-for-subscription-changes",
+      "snippet": "It's important to note that proration credits are not automatically refunded to members immediately. When changes result in proration credits, these credits are applied toward the member’s payment. Suppose the credit amount exceeds the due amount when confirming the change. In that case, the excess credit will be added to their Stripe account balance and subsequently applied to their future invoices until the total credit amount is utilized.",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_analytics_payments-analytics",
+      "title": "Payments analytics",
+      "url": "https://help.circle.so/p/administration/analytics/payments-analytics",
+      "snippet": "Transactions: View the total number of transactions, including the one-time fee, subscription, and installment payments within the selected time frame. This also includes recurring payments from subscriptions and installments and any transactions that are fully or partially refunded.",
+      "section": "administration / analytics",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_refund-member-payments",
+      "title": "Refund member payments",
+      "url": "https://help.circle.so/p/payments/paywall-management/refund-member-payments",
+      "snippet": "",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-management_understanding-the-cancellation-process-for-failed-payments",
+      "title": "Understanding the cancelation process for failed payments",
+      "url": "https://help.circle.so/p/payments/paywall-management/understanding-the-cancellation-process-for-failed-payments",
+      "snippet": "Manage failed payments section (go to Stripe account → Settings → Subscriptions and emails).",
+      "section": "payments / paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_affiliates_affiliates-overview",
+      "title": "Affiliates overview",
+      "url": "https://help.circle.so/p/payments/affiliates/affiliates-overview",
+      "snippet": "Additionally, please note that regular payments for paywall purchases within your community will continue to be processed through your Stripe account and won’t be affected by the affiliate program.",
+      "section": "payments / affiliates",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_receiving-stripe-payouts",
+      "title": "Receiving Stripe payouts",
+      "url": "https://help.circle.so/p/payments/paywall-setup/receiving-stripe-payouts",
+      "snippet": "",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-trials_extend-trial-duration-for-paywall-subscriptions",
+      "title": "Extend trial duration for paywall subscriptions",
+      "url": "https://help.circle.so/p/payments/paywall-trials/extend-trial-duration-for-paywall-subscriptions",
+      "snippet": "💡 Tip: Members show up as customers in your Stripe account. In the Subscriptions section, hover over the subscription and click the Update subscription icon to go to the Update subscription page.",
+      "section": "payments / paywall-trials",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_taxes_understanding-stripe-tax-integration-with-circle-paywalls",
+      "title": "Understanding Stripe Tax integration with Circle paywalls",
+      "url": "https://help.circle.so/p/payments/taxes/understanding-stripe-tax-integration-with-circle-paywalls",
+      "snippet": "",
+      "section": "payments / taxes",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_live-and-events_rsvp-and-attend-community-events",
+      "title": "RSVP and attend community events",
+      "url": "https://help.circle.so/p/members/live-and-events/rsvp-and-attend-community-events",
+      "snippet": "",
+      "section": "members / live-and-events",
+      "category": "events",
+      "categories": [
+        "events",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_create-recurring-events",
+      "title": "Getting to know recurring events",
+      "url": "https://help.circle.so/p/live-and-events/events/create-recurring-events",
+      "snippet": "Select multiple future events in the series. Click Select all to RSVP to every event in the series in one step.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_update-published-events",
+      "title": "Update published events",
+      "url": "https://help.circle.so/p/live-and-events/events/update-published-events",
+      "snippet": "Those who RSVP’d to upcoming events will receive two emails: one notifying the change, and another confirming their spot in the new series.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_limit-rsvps-for-events",
+      "title": "Limit RSVPs for events",
+      "url": "https://help.circle.so/p/live-and-events/events/limit-rsvps-for-events",
+      "snippet": "In this article, we will guide you on how to set this up when creating your event. The RSVP limit allows you to control your attendee list by controlling the number of members who can RSVP.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events",
+      "title": "Events",
+      "url": "https://help.circle.so/p/live-and-events/events",
+      "snippet": "",
+      "section": "live-and-events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_live-and-events_events_publish-an-event-draft",
+      "title": "Publish an event draft",
+      "url": "https://help.circle.so/p/live-and-events/events/publish-an-event-draft",
+      "snippet": "Hide from featured areas: Enable this toggle to hide the events from the Feed and weekly digest. Allow non-members to RSVP: Turn this toggle on to let your non-member audience RSVP for a single free event and join it directly from the event details page.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_customize-event-space-settings",
+      "title": "Customize event space settings",
+      "url": "https://help.circle.so/p/live-and-events/events/customize-event-space-settings",
+      "snippet": "When you publish the event, space members will receive an invitation that lets them view event details and accept to confirm their RSVP.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "spaces",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_manage-your-community-members",
+      "title": "View and manage your community members",
+      "url": "https://help.circle.so/p/audience/member-management/manage-your-community-members",
+      "snippet": "Event RSVP: Find members who confirmed their RSVPd to a specific event, whether upcoming or past.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_understanding-event-notifications",
+      "title": "Understanding event notifications",
+      "url": "https://help.circle.so/p/live-and-events/events/understanding-event-notifications",
+      "snippet": "When members RSVP to an event or accept an event invitation, they receive a confirmation email with key event details and a calendar invite.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_set-up-custom-event-reminders",
+      "title": "Set up custom event reminders",
+      "url": "https://help.circle.so/p/live-and-events/events/set-up-custom-event-reminders",
+      "snippet": "Going: Remind attendees who have confirmed their attendance by RSVPing and keeping their status as going.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_rsvp-and-attend-community-events",
+      "title": "RSVP and attend community events",
+      "url": "https://help.circle.so/p/live-and-events/events/rsvp-and-attend-community-events",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_understanding-visibility-options-for-circle-live-events",
+      "title": "Understanding visibility options for Circle live events",
+      "url": "https://help.circle.so/p/live-and-events/events/understanding-visibility-options-for-circle-live-events",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "live",
+      "categories": [
+        "live",
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_share-events-publicly",
+      "title": "Share events publicly",
+      "url": "https://help.circle.so/p/live-and-events/events/share-events-publicly",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_add-members-to-an-event",
+      "title": "Add or remove attendees from an event",
+      "url": "https://help.circle.so/p/live-and-events/events/add-members-to-an-event",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_understanding-time-zones-for-events",
+      "title": "Understanding time zones for events",
+      "url": "https://help.circle.so/p/live-and-events/events/understanding-time-zones-for-events",
+      "snippet": "If you prefer to avoid the automatic time adjustment, it may be best to create two separate recurring event series—one for the period before daylight saving time starts and another for after it begins.",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_create-an-event-draft",
+      "title": "Create an event draft",
+      "url": "https://help.circle.so/p/live-and-events/events/create-an-event-draft",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_manage-events",
+      "title": "Manage events",
+      "url": "https://help.circle.so/p/live-and-events/events/manage-events",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_event-directory-overview",
+      "title": "Event directory overview",
+      "url": "https://help.circle.so/p/live-and-events/events/event-directory-overview",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_marketing-automation_set-up-email-workflows",
+      "title": "Set up email workflows",
+      "url": "https://help.circle.so/p/email-hub/marketing-automation/set-up-email-workflows",
+      "snippet": "Follow-up with event attendees: After an event, set up a bulk action workflow to send thank-you emails, share relevant resources, or invite attendees to future events. You can also add tags or add them to exclusive event spaces for further engagement. Re-engage inactive members: Schedule a recurring bulk action workflow to reach out to members who haven’t logged in recently using the Last logged in audience rule.",
+      "section": "email-hub / marketing-automation",
+      "category": "email",
+      "categories": [
+        "email",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_get-to-know-event-spaces",
+      "title": "Get to know event spaces",
+      "url": "https://help.circle.so/p/live-and-events/events/get-to-know-event-spaces",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_live-and-events_events_allow-your-members-to-create-events",
+      "title": "Allow your members to create events",
+      "url": "https://help.circle.so/p/live-and-events/events/allow-your-members-to-create-events",
+      "snippet": "",
+      "section": "live-and-events / events",
+      "category": "events",
+      "categories": [
+        "events",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_understanding-community-notifications",
+      "title": "Understanding community notifications",
+      "url": "https://help.circle.so/p/audience/notifications/understanding-community-notifications",
+      "snippet": "",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_branded-apps_create-custom-push-notifications",
+      "title": "Create custom push notifications",
+      "url": "https://help.circle.so/p/branded-apps/branded-apps/create-custom-push-notifications",
+      "snippet": "",
+      "section": "branded-apps / branded-apps",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_access-your-notifications",
+      "title": "Access your notifications",
+      "url": "https://help.circle.so/p/audience/notifications/access-your-notifications",
+      "snippet": "",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_send-custom-push-notifications-to-members-using-workflows",
+      "title": "Send custom push notifications to members using workflows",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/send-custom-push-notifications-to-members-using-workflows",
+      "snippet": "Trigger custom push notifications on current trends, activities, and events in your community, allowing you to send timely and relevant notifications based on members’ interests.",
+      "section": "workflows / workflow-setup",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_chat-spaces_receiving-chat-space-notifications",
+      "title": "Receiving chat space notifications",
+      "url": "https://help.circle.so/p/chat/chat-spaces/receiving-chat-space-notifications",
+      "snippet": "Whenever you have a new activity in chat spaces, you’ll get notified in various ways, including visual cues on the web browser and mobile app, in-app notifications, and push notifications on the mobile app.",
+      "section": "chat / chat-spaces",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_circle-plus_branded-apps_manage-custom-push-notifications",
+      "title": "Manage custom push notifications",
+      "url": "https://help.circle.so/p/circle-plus/branded-apps/manage-custom-push-notifications",
+      "snippet": "",
+      "section": "circle-plus / branded-apps",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_post-spaces_receiving-post-notifications",
+      "title": "Receiving post notifications",
+      "url": "https://help.circle.so/p/posts/post-spaces/receiving-post-notifications",
+      "snippet": "",
+      "section": "posts / post-spaces",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_manage-your-notification-preferences",
+      "title": "Manage your notification preferences",
+      "url": "https://help.circle.so/p/audience/notifications/manage-your-notification-preferences",
+      "snippet": "",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_get-to-know-community-notifications",
+      "title": "Get to know community notifications",
+      "url": "https://help.circle.so/p/members/account-access-management/get-to-know-community-notifications",
+      "snippet": "Get to know community notifications · Access your notifications · Manage your in-app notifications · Manage your notification preferences · Change language for your account · Manage privacy and messaging settings for your account · Trouble logging in ·",
+      "section": "members / account-access-management",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_events_how-do-event-notifications-work",
+      "title": "How do event notifications work?",
+      "url": "https://help.circle.so/c/events/how-do-event-notifications-work",
+      "snippet": "Last updated: September 12, 2023 Our event notifications are designed to keep both space members and attendees in the loop, ensuring that they never miss an exciting event. There are a couple of ways in which members will be notified about events in ...",
+      "section": "events",
+      "category": "events",
+      "categories": [
+        "events",
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_paywall-management_how-do-paywall-notifications-work",
+      "title": "How do paywall notifications work?",
+      "url": "https://help.circle.so/c/paywall-management/how-do-paywall-notifications-work",
+      "snippet": "Members will receive confirmations and reminders at various stages of the paywall subscription journey. In general, subscription notifications will be sent by Circle, while Stripe will send payment notifications. The following is a breakdown of the not...",
+      "section": "paywall-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_manage-default-notification-settings-for-new-community-members",
+      "title": "Manage default notification settings for new community members",
+      "url": "https://help.circle.so/p/audience/notifications/manage-default-notification-settings-for-new-community-members",
+      "snippet": "",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_getting-notified-when-a-new-member-joins-your-community",
+      "title": "Getting notified when a new member joins your community",
+      "url": "https://help.circle.so/p/audience/notifications/getting-notified-when-a-new-member-joins-your-community",
+      "snippet": "Circle offers built-in notification options that allow admins to receive alerts when a new member joins the community.",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_chat-spaces_mention-everyone-in-group-dms-and-chat-spaces",
+      "title": "Mention everyone in group DMs and chat spaces",
+      "url": "https://help.circle.so/p/chat/chat-spaces/mention-everyone-in-group-dms-and-chat-spaces",
+      "snippet": "We offer in-app and push notifications for mentions in both chat spaces and group DMs.",
+      "section": "chat / chat-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_circle-plus_branded-apps_create-custom-push-notifications",
+      "title": "Create custom push notifications",
+      "url": "https://help.circle.so/p/circle-plus/branded-apps/create-custom-push-notifications",
+      "snippet": "",
+      "section": "circle-plus / branded-apps",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_manage-your-notification-preferences",
+      "title": "Manage your notification preferences",
+      "url": "https://help.circle.so/p/members/account-access-management/manage-your-notification-preferences",
+      "snippet": "On mobile apps, notification options are categorized into two sections: email, in-app, and push notifications, which are new activity and new posts.",
+      "section": "members / account-access-management",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_dm_receiving-direct-message-notifications",
+      "title": "Receiving direct message notifications",
+      "url": "https://help.circle.so/p/chat/dm/receiving-direct-message-notifications",
+      "snippet": "Additionally, to help you stay connected, you'll get an email notification if a new message arrives more than 24 hours after the previous message in a one-to-one conversation. Both iOS and Android apps support push notifications for unread threaded and non-threaded messages inside DMs.",
+      "section": "chat / dm",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_courses_commenting-on-a-lesson",
+      "title": "Commenting on a lesson",
+      "url": "https://help.circle.so/p/members/courses/commenting-on-a-lesson",
+      "snippet": "💡 Tip: To manage this on our mobile apps, navigate to the Notifications tab → tap the Settings icon in the top-left corner → select In-app or Push notifications option → enable/disable the Mentions toggle.",
+      "section": "members / courses",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_create-segments",
+      "title": "Create segments",
+      "url": "https://help.circle.so/p/audience/member-management/create-segments",
+      "snippet": "Custom push notifications: For branded apps, you can use the Segment filter to define your audience for",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-management_customize-notification-emails-for-drip-sections",
+      "title": "Customize notification emails for drip sections",
+      "url": "https://help.circle.so/p/courses/course-management/customize-notification-emails-for-drip-sections",
+      "snippet": "ℹ️ Note: Students have the ability to change their preference of new course content notifications for email, in-app, and push notifications from their community account.",
+      "section": "courses / course-management",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "email",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications",
+      "title": "Notifications",
+      "url": "https://help.circle.so/p/audience/notifications",
+      "snippet": "",
+      "section": "audience",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_members_account-access-management_manage-your-in-app-notifications",
+      "title": "Manage your in-app notifications",
+      "url": "https://help.circle.so/p/members/account-access-management/manage-your-in-app-notifications",
+      "snippet": "",
+      "section": "members / account-access-management",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_image-spaces_customize-image-space-settings",
+      "title": "Customize image space settings",
+      "url": "https://help.circle.so/p/posts/image-spaces/customize-image-space-settings",
+      "snippet": "In the New post notifications, select the checkboxes.",
+      "section": "posts / image-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_send-an-invitation-to-add-a-member-to-your-community",
+      "title": "Invite members to your community",
+      "url": "https://help.circle.so/p/audience/onboarding/send-an-invitation-to-add-a-member-to-your-community",
+      "snippet": "Create a paywall trial with a custom trial duration on behalf of members. When inviting existing members through the import file, you can include additional member-specific data like tags or profile fields in their profiles.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_onboarding_how-do-i-invite-members",
+      "title": "What options are available for onboarding members to my community?",
+      "url": "https://help.circle.so/c/onboarding/how-do-i-invite-members",
+      "snippet": "When it comes to onboarding new members to your community, it’s important to have a clear plan for granting them access to community content. Circle provides several flexible onboarding options tailored to your unique use cases, giving you greater flex...",
+      "section": "onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_set-up-an-invitation-link",
+      "title": "Set up an invite link",
+      "url": "https://help.circle.so/p/audience/onboarding/set-up-an-invitation-link",
+      "snippet": "Give your invite link a name for internal reference. This name will only be visible to administrators and will help identify the link in filters across different areas of the community, including workflows and the Manage audience page. Tags help you categorize members based on their roles, groups, or achievements.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding",
+      "title": "Onboarding",
+      "url": "https://help.circle.so/p/audience/onboarding",
+      "snippet": "Learn more about different onboarding methods, understand the invite and paywall access, customize the onboarding experience, manage pending invites, and much more.",
+      "section": "audience",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_audience_member-management_re-invite-a-deactivated-member",
+      "title": "Re-invite a deactivated member",
+      "url": "https://help.circle.so/p/audience/member-management/re-invite-a-deactivated-member",
+      "snippet": "Enter the member’s email and set everything up as per your preference. Once you have reviewed the invitation setup, click Send invites.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_explore-options-available-for-onboarding-members-to-your-community",
+      "title": "Explore options available for onboarding members to your community",
+      "url": "https://help.circle.so/p/audience/onboarding/explore-options-available-for-onboarding-members-to-your-community",
+      "snippet": "The invitation link allows you to create a sign-up link to provide free access to specific spaces and space groups, create a trial paywall subscription, and apply member tags when a new member joins your community using the link.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_bulk-invite-members-to-your-community",
+      "title": "Get to know the bulk import option for inviting members",
+      "url": "https://help.circle.so/p/audience/onboarding/bulk-invite-members-to-your-community",
+      "snippet": "",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_understanding-invite-access-and-paywall-access-methods",
+      "title": "Understanding invite access and paywall access",
+      "url": "https://help.circle.so/p/audience/onboarding/understanding-invite-access-and-paywall-access-methods",
+      "snippet": "",
+      "section": "audience / onboarding",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_customize-member-space-settings",
+      "title": "Customize member space settings",
+      "url": "https://help.circle.so/p/audience/member-management/customize-member-space-settings",
+      "snippet": "💡 Tip: You can also use the invite member option directly from the space settings menu by clicking the dropdown icon beside the space name in the header and selecting Invite member.",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_updating-your-invitation-links",
+      "title": "Updating your invite links",
+      "url": "https://help.circle.so/p/audience/onboarding/updating-your-invitation-links",
+      "snippet": "",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_automations_connect-shopify-with-circle",
+      "title": "Connect Shopify with Circle",
+      "url": "https://help.circle.so/p/sso-and-integrations/automations/connect-shopify-with-circle",
+      "snippet": "For this example, we will use \"Invite Member\" in order to invite a member based on a completed order.",
+      "section": "sso-and-integrations / automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_viewing-and-resending-pending-member-invites",
+      "title": "Resend member invites",
+      "url": "https://help.circle.so/p/audience/onboarding/viewing-and-resending-pending-member-invites",
+      "snippet": "On the Manage audience page, go to the Invited tab. Hover over the member’s name, click the More actions (three dots) icon next to the name, and select Resend invitation.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_set-up-member-tags",
+      "title": "Set up member tags",
+      "url": "https://help.circle.so/p/audience/member-management/set-up-member-tags",
+      "snippet": "If the member directory is accessible to community members and the member tag is set to be visible within the directory, community members can also utilize it as a filter to find others based on their tags. ... Categorize your community members into specific groups based on their journey in the community, roles, activities, or milestones.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_create-an-access-group",
+      "title": "Create an access group",
+      "url": "https://help.circle.so/p/basics/community-access/create-an-access-group",
+      "snippet": "... These are access groups that were previously linked to the entry point but are no longer active and have been removed from the entry point. A Removed tag next to an access group indicates it was once connected and granted access to members ...",
+      "section": "basics / community-access",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_access-group-overview",
+      "title": "Get to know access groups",
+      "url": "https://help.circle.so/p/basics/community-access/access-group-overview",
+      "snippet": "Include \"Send an email\" actions to deliver tailored onboarding guides that encourage members to explore content within spaces that are part of the access group. Layer in additional actions such as adding members to events, subscribing them to paywall trials, or applying tags.",
+      "section": "basics / community-access",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_update-a-member-account",
+      "title": "Update a member account",
+      "url": "https://help.circle.so/p/audience/member-management/update-a-member-account",
+      "snippet": "On the Logs page, you can view activity logs associated with a member. These logs provide insights into various events that took place for the member, such as access to spaces or space groups, updates to member tags, posts, and more.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_setting-up-a-new-member-space",
+      "title": "Setting up a new member space",
+      "url": "https://help.circle.so/p/audience/member-management/setting-up-a-new-member-space",
+      "snippet": "You manage member spaces the same way you manage other spaces in your community. You can: Set the space name, icon, and space group location. Control who can access the space.",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_onboarding_how-do-i-set-up-an-invitation-link",
+      "title": "How do I set up an invitation link?",
+      "url": "https://help.circle.so/c/onboarding/how-do-i-set-up-an-invitation-link",
+      "snippet": "Last updated: April 04, 2023 The invitation link allows you to create a signup link to provide free access to specific spaces and space groups, create a trial subscription, and apply member tags when a new member joins your community using the link.",
+      "section": "onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_managing-member-s-access-to-spaces-from-their-account",
+      "title": "Managing members' access to spaces from their account",
+      "url": "https://help.circle.so/p/audience/member-management/managing-member-s-access-to-spaces-from-their-account",
+      "snippet": "The Access tab provides a detailed view of the spaces a member can access. Under the Access overview section, you can see which spaces the member has access to through access groups and manual space grants (the Manually added section).",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_manage-members-within-spaces-and-space-groups",
+      "title": "Manage members within spaces and space groups",
+      "url": "https://help.circle.so/p/audience/member-management/manage-members-within-spaces-and-space-groups",
+      "snippet": "",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_onboarding_set-up-an-invitation-link",
+      "title": "Set up an invitation link",
+      "url": "https://help.circle.so/c/onboarding/set-up-an-invitation-link",
+      "snippet": "Last updated: February 21, 2024 The invitation link allows you to create a signup link to provide free access to specific spaces and space groups, create a paywall trial, and apply member tags when a member joins your community using the link.",
+      "section": "onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_member-management_what-are-member-tags",
+      "title": "How do I set up member tags?",
+      "url": "https://help.circle.so/c/member-management/what-are-member-tags",
+      "snippet": "Last updated: November 20, 2023 Member tag is a powerful feature for your community, enabling effective member segmentation and boosting visibility and engagement. In this article, we will walk you through the member tag feature and its setup process ...",
+      "section": "member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_before-using-access-groups-key-considerations-and-faqs",
+      "title": "Before using access groups: Key considerations and FAQs",
+      "url": "https://help.circle.so/p/basics/community-access/before-using-access-groups-key-considerations-and-faqs",
+      "snippet": "Let’s say instead of the entire Space group A, you add only Space A, B, C from the group to Access group 1. If the Automatically add members to new spaces within group toggle is enabled in the space group settings, any member of Space group A will automatically gain access to newly created spaces.",
+      "section": "basics / community-access",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_analytics_members-analytics",
+      "title": "Members analytics",
+      "url": "https://help.circle.so/p/administration/analytics/members-analytics",
+      "snippet": "See the Active members graph to track changes in active members over time and identify patterns, such as increases or decreases in engagement during specific periods. You can also utilize filters such as member tags, space groups, event spaces, and more to narrow down the data results for specific segments.",
+      "section": "administration / analytics",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_paywall-setup_set-up-subscription-groups",
+      "title": "Set up subscription groups",
+      "url": "https://help.circle.so/p/payments/paywall-setup/set-up-subscription-groups",
+      "snippet": "Silver Membership – Provides access to all spaces in the Get Started and Balance Basics space groups.",
+      "section": "payments / paywall-setup",
+      "category": "payments",
+      "categories": [
+        "payments"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_removing-members-from-your-community",
+      "title": "Deactivate, delete, or ban members",
+      "url": "https://help.circle.so/p/audience/member-management/removing-members-from-your-community",
+      "snippet": "❗ Important: If a banned member uses a different, unblocked IP address, they can re-register as a new member with the same email. They can sign up using any of the methods available to them, similar to how reactivation works with other removal options as long as they use an unblocked IP address.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_audience-crm_get-to-know-contacts",
+      "title": "Understanding contacts",
+      "url": "https://help.circle.so/p/email-hub/audience-crm/get-to-know-contacts",
+      "snippet": "Submitting a form: Members and non-members can submit the form to resubscribe to the marketing emails. Resubscribing to marketing emails will make them contact again and add them back to the Contacts tab. Yes, you can permanently remove the non-member from your community.",
+      "section": "email-hub / audience-crm",
+      "category": "email",
+      "categories": [
+        "email",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_removing-members-from-spaces-and-space-groups",
+      "title": "Removing members from spaces and space groups",
+      "url": "https://help.circle.so/p/audience/member-management/removing-members-from-spaces-and-space-groups",
+      "snippet": "",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management",
+      "title": "Member management",
+      "url": "https://help.circle.so/p/audience/member-management",
+      "snippet": "",
+      "section": "audience",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_basics_getting-started_searching-within-your-community",
+      "title": "How search works in your community",
+      "url": "https://help.circle.so/p/basics/getting-started/searching-within-your-community",
+      "snippet": "If your keyword matches a member or space, results appear instantly in the quick search bar, and you can navigate directly. To search across posts, comments, lessons, and more, press Enter to run a full community-wide search. ... Your last five keyword searches are saved in the Recent searches section in the quick search bar. Click a keyword to run it again. 💡 Tip: If you would like to remove any of the recent search entries from the quick search bar, hover over the keyword and click X.",
+      "section": "basics / getting-started",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_post-spaces_edit-a-post",
+      "title": "Edit a post",
+      "url": "https://help.circle.so/p/posts/post-spaces/edit-a-post",
+      "snippet": "The admin, moderator, or member who is the post's author can permanently remove the post from the community.",
+      "section": "posts / post-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_spaces_managing-space-access-and-visibility",
+      "title": "Managing space access and visibility",
+      "url": "https://help.circle.so/p/basics/spaces/managing-space-access-and-visibility",
+      "snippet": "The space visibility option is only available for open and private spaces. Secret spaces cannot be made visible to visitors.",
+      "section": "basics / spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_set-up-a-private-community",
+      "title": "Set up a private community",
+      "url": "https://help.circle.so/p/basics/community-access/set-up-a-private-community",
+      "snippet": "",
+      "section": "basics / community-access",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_set-up-a-public-community",
+      "title": "Set up a public community",
+      "url": "https://help.circle.so/p/basics/community-access/set-up-a-public-community",
+      "snippet": "",
+      "section": "basics / community-access",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_post-spaces_customize-post-space-settings",
+      "title": "Customize post space settings",
+      "url": "https://help.circle.so/p/posts/post-spaces/customize-post-space-settings",
+      "snippet": "Private: With private access, only ... restrict access to paying members. Secret: With this option, keep the space hidden by default for all the non-space members....",
+      "section": "posts / post-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_auto-adding-members-to-spaces",
+      "title": "Auto-adding members to spaces",
+      "url": "https://help.circle.so/p/audience/member-management/auto-adding-members-to-spaces",
+      "snippet": "Automatically add members to new spaces within the group: When enabled, members of this space group will be automatically added to any new space you create inside the space group, including private and secret spaces going forward.",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-setup_understanding-course-publication",
+      "title": "Understanding course publication",
+      "url": "https://help.circle.so/p/courses/course-setup/understanding-course-publication",
+      "snippet": "The course is published (course space set to open, private, or secret).",
+      "section": "courses / course-setup",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_examples-of-space-access-configuration-for-private-communities",
+      "title": "Examples of space access configuration for private communities",
+      "url": "https://help.circle.so/p/basics/community-access/examples-of-space-access-configuration-for-private-communities",
+      "snippet": "",
+      "section": "basics / community-access",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_chat-spaces_setting-up-a-new-chat-space",
+      "title": "Setting up a new chat space",
+      "url": "https://help.circle.so/p/chat/chat-spaces/setting-up-a-new-chat-space",
+      "snippet": "Add members from this space group: Enabling this toggle will automatically add all the members from the space group. Select access level: Choose from Open, Private, or Secret access.",
+      "section": "chat / chat-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_chat-spaces_share-chat-messages",
+      "title": "Share chat messages",
+      "url": "https://help.circle.so/p/chat/chat-spaces/share-chat-messages",
+      "snippet": "It’s important to note that when a message is shared from a private or secret chat space, if the member who tries to open the link is not a member of that private space, they won’t be able to access it.",
+      "section": "chat / chat-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_add-existing-members-to-spaces-or-space-groups",
+      "title": "Add existing members to spaces or space groups",
+      "url": "https://help.circle.so/p/audience/member-management/add-existing-members-to-spaces-or-space-groups",
+      "snippet": "ℹ️ Note: When you choose to add members to any space group, they will also be added to all the spaces inside the space group — including secret and private spaces.",
+      "section": "audience / member-management",
+      "category": "spaces",
+      "categories": [
+        "spaces",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_spaces_spaces-overview",
+      "title": "Spaces overview",
+      "url": "https://help.circle.so/p/basics/spaces/spaces-overview",
+      "snippet": "",
+      "section": "basics / spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_space-groups-spaces_how-do-i-control-space-access",
+      "title": "How do I manage space access and visibility?",
+      "url": "https://help.circle.so/c/space-groups-spaces/how-do-i-control-space-access",
+      "snippet": "Last updated: June 26, 2023 In this article• Control access to a specific space • Manage automatic access to spaces within a space group • Manage space and space group visibility Control access to a specific spaceTo view and edit a space’s privacy set...",
+      "section": "space-groups-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_spaces_set-up-spaces-for-interest-groups",
+      "title": "Set up space groups",
+      "url": "https://help.circle.so/p/basics/spaces/set-up-spaces-for-interest-groups",
+      "snippet": "",
+      "section": "basics / spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_spaces_view-and-manage-all-spaces",
+      "title": "View and manage all spaces",
+      "url": "https://help.circle.so/p/basics/spaces/view-and-manage-all-spaces",
+      "snippet": "The Active tab lists all current spaces, organized by space group.",
+      "section": "basics / spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_notifications_setting-up-the-weekly-digest",
+      "title": "Setting up the weekly digest",
+      "url": "https://help.circle.so/p/audience/notifications/setting-up-the-weekly-digest",
+      "snippet": "",
+      "section": "audience / notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_home_understanding-the-featured-areas",
+      "title": "Understanding the featured areas",
+      "url": "https://help.circle.so/p/basics/home/understanding-the-featured-areas",
+      "snippet": "The weekly digest is your community members’ personalized weekly highlights featuring content exclusively from the spaces they are part of. The weekly digest is delivered directly to their account email every Thursday starting at 9 am PT.",
+      "section": "basics / home",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_notifications_set-up-your-weekly-digest",
+      "title": "How does the weekly digest work?",
+      "url": "https://help.circle.so/c/notifications/set-up-your-weekly-digest",
+      "snippet": "Last updated: October 30, 2023 Staying informed and connected with the latest happenings in the community is crucial. That's where the weekly digest comes into play – your key to keep members updated on valuable insights with what's hot and trending wi...",
+      "section": "notifications",
+      "category": "notifications",
+      "categories": [
+        "notifications"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_change-the-from-address-on-community-notification-emails",
+      "title": "Change the \"From\" address on community notification emails",
+      "url": "https://help.circle.so/p/basics/customization/change-the-from-address-on-community-notification-emails",
+      "snippet": "Notification emails · Weekly digests · Community invites ·",
+      "section": "basics / customization",
+      "category": "notifications",
+      "categories": [
+        "notifications",
+        "email",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_getting-started-with-ai-workflows",
+      "title": "Getting started with AI workflows",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/getting-started-with-ai-workflows",
+      "snippet": "Hide low-quality content from featured areas: Create a workflow with an AI filter that detects spammy language or excessive promotional content. Set up the post settings action to hide the post from featured areas, preventing it from appearing in the feed or weekly digest.",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_gamification_get-to-know-gamification",
+      "title": "Get to know gamification",
+      "url": "https://help.circle.so/p/audience/gamification/get-to-know-gamification",
+      "snippet": "You can offer rewards such as applying member tags, exclusive access to spaces, events, paywall trials, and other incentives that make members feel valued and appreciated. Additionally, you can manually offer rewards such as giving special recognition via posts, events, or digest, sending gift ...",
+      "section": "audience / gamification",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_email-marketing_create-email-content",
+      "title": "Create email content using the text builder",
+      "url": "https://help.circle.so/p/email-hub/email-marketing/create-email-content",
+      "snippet": "The text builder helps you create clean, simple emails focused on your message.",
+      "section": "email-hub / email-marketing",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_community-ai_get-help-with-writing-content-using-co-pilot",
+      "title": "Get help with writing content with AI content writer",
+      "url": "https://help.circle.so/p/administration/community-ai/get-help-with-writing-content-using-co-pilot",
+      "snippet": "Email editors (available with · Email Hub) ℹ️ Note: This feature is only available to admin and space or space group moderator roles on desktop and mobile browsers. Here are some ideas for using the content writer in a text editor: Generate new ideas: Ask AI to generate ideas about posts and lesson topics.",
+      "section": "administration / community-ai",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_email-marketing_configure-email-settings",
+      "title": "Configure email settings",
+      "url": "https://help.circle.so/p/email-hub/email-marketing/configure-email-settings",
+      "snippet": "In this guide, we will walk through how to set up your sender details, postal address, and preview the email footer for your broadcasts.",
+      "section": "email-hub / email-marketing",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_analytics_export-your-community-data",
+      "title": "Export your community data",
+      "url": "https://help.circle.so/p/administration/analytics/export-your-community-data",
+      "snippet": "Email · Join date · Active status (if the member has signed in the last 30 days) Member tags · Profile fields (including custom fields, if any) Profile URL · Avatar URL · Number of comments, posts, and likes received · Last active information · Space ID · Space name ·",
+      "section": "administration / analytics",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-management_using-the-course-dashboard",
+      "title": "Using the course dashboard",
+      "url": "https://help.circle.so/p/courses/course-management/using-the-course-dashboard",
+      "snippet": "Export comments, students, or quiz results: Export a CSV file containing comments, student information, or quiz results for each quiz taken by students in your course. The file will be sent to your admin email.",
+      "section": "courses / course-management",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_email-marketing_set-up-a-branded-email-domain-for-marketing-emails",
+      "title": "Set up a branded email domain for marketing emails",
+      "url": "https://help.circle.so/p/email-hub/email-marketing/set-up-a-branded-email-domain-for-marketing-emails",
+      "snippet": "While you can use your root domain for marketing emails, we strongly recommend setting up a dedicated subdomain that is not being used for any other purpose. Using a dedicated subdomain helps improve email deliverability and security by isolating marketing email traffic and avoiding conflicts with existing email systems or DMARC policies on your root domain.",
+      "section": "email-hub / email-marketing",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-domains",
+      "title": "Custom domains",
+      "url": "https://help.circle.so/p/administration/custom-domains",
+      "snippet": "",
+      "section": "administration",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_administration_custom-domains_set-up-a-custom-root-domain",
+      "title": "Set up a custom root domain",
+      "url": "https://help.circle.so/p/administration/custom-domains/set-up-a-custom-root-domain",
+      "snippet": "In a separate browser window or on a browser tab, go to your domain host’s platform and set up a CNAME record. When adding a CNAME record, transfer the exact Host/Name and Target/Value information copied from your community’s custom domain settings and paste it into the CNAME record editor to avoid errors.",
+      "section": "administration / custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-domains_set-up-a-custom-subdomain",
+      "title": "Set up a custom subdomain",
+      "url": "https://help.circle.so/p/administration/custom-domains/set-up-a-custom-subdomain",
+      "snippet": "In a separate browser window or on a browser tab, go to your domain host’s platform and set up a CNAME record. When adding a CNAME record, transfer the exact Host/Name and Target/Value information copied from your community’s custom domain settings and paste it into the CNAME record editor ...",
+      "section": "administration / custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-domains_removing-custom-domain",
+      "title": "Removing custom domain",
+      "url": "https://help.circle.so/p/administration/custom-domains/removing-custom-domain",
+      "snippet": "",
+      "section": "administration / custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-domains_set-up-a-custom-root-domain-hosted-by-cloudflare",
+      "title": "Set up a custom root domain hosted by Cloudflare",
+      "url": "https://help.circle.so/p/administration/custom-domains/set-up-a-custom-root-domain-hosted-by-cloudflare",
+      "snippet": "Navigate to your domain in Cloudflare. Go to DNS from the left sidebar → Records. ... Transfer the Host/Name and Target/Value information from your community’s custom domain settings and paste it into Cloudflare (see points 1 and 2 in the image below).",
+      "section": "administration / custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_email-marketing_create-and-manage-email-templates",
+      "title": "Create and manage email templates",
+      "url": "https://help.circle.so/p/email-hub/email-marketing/create-and-manage-email-templates",
+      "snippet": "",
+      "section": "email-hub / email-marketing",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_websites_getting-started-with-websites",
+      "title": "Getting started with websites",
+      "url": "https://help.circle.so/p/administration/websites/getting-started-with-websites",
+      "snippet": "Currently, web pages will use your community’s default or custom domain with the page’s name as the slug.",
+      "section": "administration / websites",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub",
+      "title": "Email Hub",
+      "url": "https://help.circle.so/p/email-hub",
+      "snippet": "",
+      "section": "",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_administration_custom-domains_updating-custom-domain-to-a-different-one",
+      "title": "Updating your custom domain to a different one",
+      "url": "https://help.circle.so/p/administration/custom-domains/updating-custom-domain-to-a-different-one",
+      "snippet": "",
+      "section": "administration / custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_email-hub_email-marketing",
+      "title": "Email marketing",
+      "url": "https://help.circle.so/p/email-hub/email-marketing",
+      "snippet": "",
+      "section": "email-hub",
+      "category": "email",
+      "categories": [
+        "email"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_basics_mobile-apps_download-circle-communities-app-on-ios",
+      "title": "Download Circle Communities app on iOS",
+      "url": "https://help.circle.so/p/basics/mobile-apps/download-circle-communities-app-on-ios",
+      "snippet": "Circle features desktop vs mobile apps. ... Download Circle Communities app on Android.",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_media-management_guide-to-embedding-media-in-your-community",
+      "title": "Guide to embedding media in your community",
+      "url": "https://help.circle.so/p/basics/media-management/guide-to-embedding-media-in-your-community",
+      "snippet": "On iOS and Android mobile apps, your embedded content will appear inline.",
+      "section": "basics / media-management",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat_dm_get-to-know-direct-messaging",
+      "title": "Get to know the messaging feature",
+      "url": "https://help.circle.so/p/chat/dm/get-to-know-direct-messaging",
+      "snippet": "You can use the messaging features on all supported platforms, including desktop and mobile browsers, as well as Android and iOS mobile apps.",
+      "section": "chat / dm",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_mobile-apps_switching-between-communities-on-the-circle-mobile-app",
+      "title": "Switching between communities on the Circle mobile app",
+      "url": "https://help.circle.so/p/basics/mobile-apps/switching-between-communities-on-the-circle-mobile-app",
+      "snippet": "Are you a member of multiple communities under one Circle account? We've got you covered! On Circle’s iOS and Android mobile apps, you can easily switch between your communities with just a few taps on your screen.",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_live-and-events_troubleshooting-audio-and-video-issues",
+      "title": "Troubleshoot audio and video issues in live sessions",
+      "url": "https://help.circle.so/p/members/live-and-events/troubleshooting-audio-and-video-issues",
+      "snippet": "On iOS (iPhone/iPad): Go to Settings > Privacy & Security > Camera / Microphone. Make sure the community app or your browser is toggled on. See Apple’s guide ... On Android: Go to Settings > Apps > Community app (Circle) / Chrome > Permissions. Allow camera and microphone access. See Android’s guide ... Note that the steps might be different depending on your device and Android version. When joining a live session in a mobile ...",
+      "section": "members / live-and-events",
+      "category": "live",
+      "categories": [
+        "live",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_branded-apps_personalize-branded-apps-colors-and-logos",
+      "title": "Personalize branded apps: Colors and logos",
+      "url": "https://help.circle.so/p/branded-apps/branded-apps/personalize-branded-apps-colors-and-logos",
+      "snippet": "Light and dark modes: You have the flexibility to choose dedicated colors and a logo for both Light and Dark modes, optimizing the app’s appearance for each display setting on mobile devices. Instant updates: Any changes you make to the app’s branding are applied immediately to Android and iOS apps for everyone, without requiring app store approvals.",
+      "section": "branded-apps / branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_customize-your-community-theme",
+      "title": "Customize your community theme",
+      "url": "https://help.circle.so/p/basics/customization/customize-your-community-theme",
+      "snippet": "For Circle mobile apps, your iOS or Android operating system’s light or dark mode settings determine the app’s mode.",
+      "section": "basics / customization",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_circle-features-desktop-vs-mobile-apps",
+      "title": "Circle features: desktop vs mobile apps",
+      "url": "https://help.circle.so/p/basics/getting-started/circle-features-desktop-vs-mobile-apps",
+      "snippet": "",
+      "section": "basics / getting-started",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_mobile-apps_inform-your-members-about-circle-mobile-apps",
+      "title": "Inform your members about Circle mobile apps",
+      "url": "https://help.circle.so/p/basics/mobile-apps/inform-your-members-about-circle-mobile-apps",
+      "snippet": "Turn on the Show app download banner on mobile browsers and outbound emails toggle. You can announce the app in your community via a post. You can also bulk-email your members using your preferred email communication tool. Use the Links section in the left sidebar of your community to add links to the Android and iOS apps.",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_mobile-apps_download-circle-communities-app-on-android",
+      "title": "Download Circle Communities app on Android",
+      "url": "https://help.circle.so/p/basics/mobile-apps/download-circle-communities-app-on-android",
+      "snippet": "",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_get-to-know-connect-beta",
+      "title": "Get to know Connect (Beta)",
+      "url": "https://help.circle.so/p/audience/member-management/get-to-know-connect-beta",
+      "snippet": "Connect is supported across all Circle plans at no additional cost, and is available on web browsers, desktop, and mobile apps.",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_troubleshooting-ios-and-android-verification-code-email-delivery-issues",
+      "title": "Troubleshooting iOS and Android verification code email delivery issues",
+      "url": "https://help.circle.so/p/audience/member-management/troubleshooting-ios-and-android-verification-code-email-delivery-issues",
+      "snippet": "Advise your members to ensure they are using the correct email registered with their community account when signing in to the Circle app. Ask your members to check for any blocks that might be preventing email delivery, such as the storage limit of their mailboxes or an issue with domain setup in their email service provider. ... Add no-reply@auth.circle.so, no-reply@circle.so, and no-reply@notification.circle.so as a contact in their email service provider. Try to sign in again using the mobile app and check your email account for verification code email.",
+      "section": "audience / member-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "email",
+        "mobile",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_additional-resources_using-connect-to-build-your-network",
+      "title": "Using Connect to build your network",
+      "url": "https://help.circle.so/p/members/additional-resources/using-connect-to-build-your-network",
+      "snippet": "The Connect panel provides quick ... as well as our mobile apps. ... To access the Connect panel on desktop or web browsers, click the Connections button in the top-right corner of the community header. ... To access the Connect panel on iOS, Android or branded apps, tap ...",
+      "section": "members / additional-resources",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started",
+      "title": "Getting started",
+      "url": "https://help.circle.so/p/basics/getting-started",
+      "snippet": "",
+      "section": "basics",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_circle-plus_branded-apps_get-to-know-branded-apps",
+      "title": "Get to know branded apps",
+      "url": "https://help.circle.so/p/circle-plus/branded-apps/get-to-know-branded-apps",
+      "snippet": "",
+      "section": "circle-plus / branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_mobile-apps_get-branded-app-for-your-community",
+      "title": "Get a branded app for your community",
+      "url": "https://help.circle.so/p/basics/mobile-apps/get-branded-app-for-your-community",
+      "snippet": "branded app for your community, so you can seamlessly integrate your brand's unique look and feel into your community's mobile app experience.",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_branded-apps",
+      "title": "Branded app customization",
+      "url": "https://help.circle.so/p/branded-apps/branded-apps",
+      "snippet": "",
+      "section": "branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "account"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_circle-plus_branded-apps_create-and-manage-custom-screens-and-navigation-for-branded-apps",
+      "title": "Create and manage custom screens and navigation for branded apps",
+      "url": "https://help.circle.so/p/circle-plus/branded-apps/create-and-manage-custom-screens-and-navigation-for-branded-apps",
+      "snippet": "",
+      "section": "circle-plus / branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_branded-apps_customize-branded-app-onboarding",
+      "title": "Customize branded app onboarding",
+      "url": "https://help.circle.so/p/branded-apps/branded-apps/customize-branded-app-onboarding",
+      "snippet": "",
+      "section": "branded-apps / branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps",
+      "title": "Branded apps",
+      "url": "https://help.circle.so/p/branded-apps",
+      "snippet": "",
+      "section": "",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_circle-plus_implementation-and-launch_inform-members-about-your-branded-apps",
+      "title": "Inform members about your branded apps",
+      "url": "https://help.circle.so/p/circle-plus/implementation-and-launch/inform-members-about-your-branded-apps",
+      "snippet": "",
+      "section": "circle-plus / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch",
+      "title": "Implementation and launch",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch",
+      "snippet": "",
+      "section": "branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch_how-we-support-you-circle-plus-success-services-explained",
+      "title": "How we support you: Branded apps success and services explained",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch/how-we-support-you-circle-plus-success-services-explained",
+      "snippet": "",
+      "section": "branded-apps / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch_required-design-assets-for-the-app-submission-process",
+      "title": "Design assets for app submission",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch/required-design-assets-for-the-app-submission-process",
+      "snippet": "",
+      "section": "branded-apps / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_in-app-purchases_in-app-purchases-overview",
+      "title": "In-app purchases overview",
+      "url": "https://help.circle.so/p/branded-apps/in-app-purchases/in-app-purchases-overview",
+      "snippet": "",
+      "section": "branded-apps / in-app-purchases",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch_preparing-for-the-app-submission-process",
+      "title": "Preparing for the app submission process",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch/preparing-for-the-app-submission-process",
+      "snippet": "",
+      "section": "branded-apps / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch_setting-up-app-developer-accounts",
+      "title": "Setting up app developer accounts",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch/setting-up-app-developer-accounts",
+      "snippet": "",
+      "section": "branded-apps / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_account-and-app-management_understanding-google-s-external-content-links-program",
+      "title": "Understanding Google’s External Content Links program",
+      "url": "https://help.circle.so/p/branded-apps/account-and-app-management/understanding-google-s-external-content-links-program",
+      "snippet": "",
+      "section": "branded-apps / account-and-app-management",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_circle-plus_branded-apps_deep-linking-support-in-branded-apps",
+      "title": "Deep linking support in branded apps",
+      "url": "https://help.circle.so/p/circle-plus/branded-apps/deep-linking-support-in-branded-apps",
+      "snippet": "",
+      "section": "circle-plus / branded-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_implementation-and-launch_disabling-community-access-on-the-circle-mobile-apps",
+      "title": "Disabling community access on the Circle mobile apps",
+      "url": "https://help.circle.so/p/branded-apps/implementation-and-launch/disabling-community-access-on-the-circle-mobile-apps",
+      "snippet": "",
+      "section": "branded-apps / implementation-and-launch",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_branded-apps_account-and-app-management_manage-your-circle-plus-account-billing",
+      "title": "Manage your Circle Plus account billing",
+      "url": "https://help.circle.so/p/branded-apps/account-and-app-management/manage-your-circle-plus-account-billing",
+      "snippet": "Last updated: June 10, 2024 · Your first invoice will be sent by email on your plan's start date, with payment due the same day. Subsequent invoices will use your selected method as the default",
+      "section": "branded-apps / account-and-app-management",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "mobile",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_understanding-and-managing-your-api-billing",
+      "title": "Understanding and managing your API billing",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/understanding-and-managing-your-api-billing",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-profile-fields_update-members-profile-fields-with-circle-api-or-zapier-endpoints",
+      "title": "Update members' profile fields with Circle API or Zapier endpoints",
+      "url": "https://help.circle.so/p/administration/custom-profile-fields/update-members-profile-fields-with-circle-api-or-zapier-endpoints",
+      "snippet": "",
+      "section": "administration / custom-profile-fields",
+      "category": "api",
+      "categories": [
+        "api",
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_manage-api-tokens-and-whitelisted-domains",
+      "title": "Manage API tokens and whitelisted domains",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/manage-api-tokens-and-whitelisted-domains",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_monitor-your-api-usage",
+      "title": "Monitor your API usage",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/monitor-your-api-usage",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_access-circle-api-documentation",
+      "title": "Access Circle API documentation",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/access-circle-api-documentation",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_get-to-know-the-circle-developer-platform",
+      "title": "Get to know the Circle Developer Platform",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/get-to-know-the-circle-developer-platform",
+      "snippet": "Circle Headless APIs are designed to help you integrate your community with your own website or app—with features like discussions, feeds, notifications, events, and more.",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_access-member-information-from-your-javascript-code-snippets",
+      "title": "Access member information from your JavaScript code snippets",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/access-member-information-from-your-javascript-code-snippets",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_automations_connect-zapier-to-your-community",
+      "title": "Connect Zapier to your community",
+      "url": "https://help.circle.so/p/sso-and-integrations/automations/connect-zapier-to-your-community",
+      "snippet": "",
+      "section": "sso-and-integrations / automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_payments_affiliates_integrating-rewardful-with-circle-paywalls",
+      "title": "Integrating rewardful with Circle paywalls",
+      "url": "https://help.circle.so/p/payments/affiliates/integrating-rewardful-with-circle-paywalls",
+      "snippet": "<script> (function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful'); (function(a,b,c,d){scriptElement=a.createElement(b),head=a.getElementsByTagName(\"head\")[0],scriptElement.async=1,scriptElement.src=c,scriptElement.setAttribute(\"data-rewardful\",d),head.appendChild(scriptElement)})(document,\"script\",\"//r.wdfl.co/rw.js\",\"YOUR_API_KEY\"); rewardful('ready', function() { rewardful('convert', { email: \"{member_email}\" }); }) </script>",
+      "section": "payments / affiliates",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_api_find-the-unique-id-of-spaces-and-space-groups",
+      "title": "Find the unique ID of spaces and space groups",
+      "url": "https://help.circle.so/p/sso-and-integrations/api/find-the-unique-id-of-spaces-and-space-groups",
+      "snippet": "",
+      "section": "sso-and-integrations / api",
+      "category": "api",
+      "categories": [
+        "api",
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_apply-and-manage-member-tags",
+      "title": "Apply and manage member tags",
+      "url": "https://help.circle.so/p/audience/member-management/apply-and-manage-member-tags",
+      "snippet": "Circle API and automation tools like · Zapier. When using invitation methods, locate the Member tags field in the invitation form and select the tags from the list. For existing members, you can directly assign or remove their member tags by · updating their individual ·",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-profile-fields_custom-profile-fields-overview",
+      "title": "Custom profile fields overview",
+      "url": "https://help.circle.so/p/administration/custom-profile-fields/custom-profile-fields-overview",
+      "snippet": "Integrate with Circle's API or Zapier: Easily update member profile fields using these powerful tools, saving time and effort.",
+      "section": "administration / custom-profile-fields",
+      "category": "members",
+      "categories": [
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_automations",
+      "title": "Zapier and automations",
+      "url": "https://help.circle.so/p/sso-and-integrations/automations",
+      "snippet": "",
+      "section": "sso-and-integrations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "c_zapier-automations_how-do-i-integrate-with-integrately",
+      "title": "How do I integrate Circle with Integrately?",
+      "url": "https://help.circle.so/c/zapier-automations/how-do-i-integrate-with-integrately",
+      "snippet": "Last Updated: March 8, 2021 Integrations with Circle are now possible through Integrately, allowing you to connect with a variety of apps in a few simple steps! Automating workflows can help save time if you use multiple tools to manage your community...",
+      "section": "zapier-automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_automations_use-typeform-to-automate-workflows",
+      "title": "Use Typeform to automate workflows",
+      "url": "https://help.circle.so/p/sso-and-integrations/automations/use-typeform-to-automate-workflows",
+      "snippet": "Zapier, you can build automation between Typeform and Circle which allows you to automatically add and remove members, apply member tags, generate posts, and more by submitting a form.",
+      "section": "sso-and-integrations / automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_zapier-automations_how-do-i-connect-with-zapier",
+      "title": "How do I connect with Zapier?",
+      "url": "https://help.circle.so/c/zapier-automations/how-do-i-connect-with-zapier",
+      "snippet": "Last updated: January 29, 2023 Zapier is a platform for automating workflows by configuring a specific trigger and action in your connected apps. Circle is available on Zapier, allowing you to connect from thousands of apps with your community.",
+      "section": "zapier-automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_zapier-automations_circle-shopify",
+      "title": "Circle + Shopify",
+      "url": "https://help.circle.so/c/zapier-automations/circle-shopify",
+      "snippet": "Create a community gateway to your Shopify store! With Zapier, you can build automation between Shopify and Circle. To pick a common scenario, we will show how you can automatically invite a member to your community after they purchase an order in this...",
+      "section": "zapier-automations",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_sso-and-integrations_sso_automate-sso-member-onboarding-using-zapier",
+      "title": "Automate SSO member onboarding using Zapier",
+      "url": "https://help.circle.so/p/sso-and-integrations/sso/automate-sso-member-onboarding-using-zapier",
+      "snippet": "",
+      "section": "sso-and-integrations / sso",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_direct-messaging_how-can-i-send-automated-direct-messages",
+      "title": "How can I send automated direct messages?",
+      "url": "https://help.circle.so/c/direct-messaging/how-can-i-send-automated-direct-messages",
+      "snippet": "Last updated: August 01, 2022 Zapier doesn't always have to work across platforms — you can use Circle for both the input trigger and the output action steps. In this scenario, we'll show how you can set up a Zapier integration to automatically send a...",
+      "section": "direct-messaging",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_customize-your-community",
+      "title": "Customize your community",
+      "url": "https://help.circle.so/p/basics/customization/customize-your-community",
+      "snippet": "Zapier: Circle is available on Zapier, allowing you to connect Circle to thousands of other apps! This can take your community to the next level by building automatic workflows that integrate with other systems you already have in place.",
+      "section": "basics / customization",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_onboarding_automate-new-member-invites-using-zapier",
+      "title": "Automate new member invites using Zapier",
+      "url": "https://help.circle.so/c/onboarding/automate-new-member-invites-using-zapier",
+      "snippet": "Automate new member invites using Zapier · Customizing the onboarding experience · Guide members through the community onboarding process · Understanding invited members · Resend member invites · Testing the member experience ·",
+      "section": "onboarding",
+      "category": "api",
+      "categories": [
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_configure-automation-workflows-to-send-webhooks",
+      "title": "Configure automation workflows to send webhooks",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/configure-automation-workflows-to-send-webhooks",
+      "snippet": "",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup",
+      "title": "Workflow setup",
+      "url": "https://help.circle.so/p/workflows/workflow-setup",
+      "snippet": "",
+      "section": "workflows",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_audience_onboarding_customizing-the-onboarding-experience",
+      "title": "Customizing the onboarding experience",
+      "url": "https://help.circle.so/p/audience/onboarding/customizing-the-onboarding-experience",
+      "snippet": "Use the workflows section to create new workflows that help automate actions based on dynamic events or perform bulk actions for specific members.",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_setting-up-ai-filters-and-actions",
+      "title": "Setting up AI filters and actions",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/setting-up-ai-filters-and-actions",
+      "snippet": "Automated actions: Decide which types of content should trigger a workflow, then automatically perform actions such as sending a direct message to a member, adding a tag, sending a push notification, and more.",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_workflows-overview",
+      "title": "Workflow overview",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/workflows-overview",
+      "snippet": "",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_gamification_reward-members-using-workflows",
+      "title": "Reward members for unlocking new levels",
+      "url": "https://help.circle.so/p/audience/gamification/reward-members-using-workflows",
+      "snippet": "",
+      "section": "audience / gamification",
+      "category": "api",
+      "categories": [
+        "api",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_workflows_workflow-setup_set-up-a-custom-bulk-action-workflow",
+      "title": "Set up a custom bulk action workflow",
+      "url": "https://help.circle.so/p/workflows/workflow-setup/set-up-a-custom-bulk-action-workflow",
+      "snippet": "",
+      "section": "workflows / workflow-setup",
+      "category": "api",
+      "categories": [
+        "api"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "c_custom-domains_how-do-i-set-up-a-custom-subdomain",
+      "title": "How do I set up a custom subdomain?",
+      "url": "https://help.circle.so/c/custom-domains/how-do-i-set-up-a-custom-subdomain",
+      "snippet": "Last updated: October 19, 2023 This article will guide you through setting up a custom subdomain in your community. In this articleStep 1: Enter your subdomain Step 2: Set up CNAME records Step 3: Confirm the setup Step 4: Test the subdomain setup “❗ ...",
+      "section": "custom-domains",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_disable-account-deactivation-option-for-member-accounts",
+      "title": "Disable account deactivation option for member accounts",
+      "url": "https://help.circle.so/p/audience/member-management/disable-account-deactivation-option-for-member-accounts",
+      "snippet": "",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_account",
+      "title": "Account and billing",
+      "url": "https://help.circle.so/p/administration/account",
+      "snippet": "",
+      "section": "administration",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "account"
+      ],
+      "isOverview": true
+    },
+    {
+      "id": "p_audience_gamification_view-leaderboard",
+      "title": "View leaderboard",
+      "url": "https://help.circle.so/p/audience/gamification/view-leaderboard",
+      "snippet": "This will hide your member profile from the member directory, search, and leaderboard. If a like is removed from your content, the point you've gained will not be removed. However, if the same person who removed the like decides to like your content again, you will not receive an additional point. When you delete your post, event, or comment, any points you earned from likes on that content will remain unaffected. If your account ...",
+      "section": "audience / gamification",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_view-member-activity-logs",
+      "title": "View community and member activity logs",
+      "url": "https://help.circle.so/p/audience/member-management/view-member-activity-logs",
+      "snippet": "",
+      "section": "audience / member-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_custom-profile-fields_set-up-custom-profile-fields",
+      "title": "Set up custom profile fields",
+      "url": "https://help.circle.so/p/administration/custom-profile-fields/set-up-custom-profile-fields",
+      "snippet": "Manage custom profile fields · Archive or delete custom profile fields · Notify existing members to complete new fields ·",
+      "section": "administration / custom-profile-fields",
+      "category": "members",
+      "categories": [
+        "members",
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_community-ai_community-ai-overview",
+      "title": "Community AI overview",
+      "url": "https://help.circle.so/p/administration/community-ai/community-ai-overview",
+      "snippet": "ℹ️ Availability: Community AI features are available on our Business plan and above. ... Click your community name or logo, or the dropdown icon next to it, on the top navigation bar, and select Settings.",
+      "section": "administration / community-ai",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_getting-help-with-your-community",
+      "title": "Getting help with your community",
+      "url": "https://help.circle.so/p/basics/getting-started/getting-help-with-your-community",
+      "snippet": "As a part of your community plan, you also get full access to our private customer community at Circle.",
+      "section": "basics / getting-started",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_customization_hide-circle-branding-in-your-community",
+      "title": "Hide Circle branding in your community",
+      "url": "https://help.circle.so/p/basics/customization/hide-circle-branding-in-your-community",
+      "snippet": "This feature is only available to communities subscribed to our Business plan and higher.",
+      "section": "basics / customization",
+      "category": "account",
+      "categories": [
+        "account"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_my-billing_manage-your-membership-subscriptions",
+      "title": "Manage your membership subscriptions",
+      "url": "https://help.circle.so/p/members/my-billing/manage-your-membership-subscriptions",
+      "snippet": "Upgrade: This option is available if you are currently on a trial subscription and wish to upgrade to a different plan within the group. Cancel subscription: This option is available when you have an active subscription. It's important to note that, based on the admin's membership settings, you might have to reach out to the admin to cancel your subscription.",
+      "section": "members / my-billing",
+      "category": "payments",
+      "categories": [
+        "payments",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_get-real-time-support-through-live-chat",
+      "title": "Get real-time support through Live Chat",
+      "url": "https://help.circle.so/p/basics/getting-started/get-real-time-support-through-live-chat",
+      "snippet": "",
+      "section": "basics / getting-started",
+      "category": "live",
+      "categories": [
+        "live"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_get-to-know-the-admin-dashboard",
+      "title": "Get to know the Admin dashboard",
+      "url": "https://help.circle.so/p/basics/getting-started/get-to-know-the-admin-dashboard",
+      "snippet": "",
+      "section": "basics / getting-started",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_navigating-circle-on-desktop",
+      "title": "Navigating Circle on desktop",
+      "url": "https://help.circle.so/p/basics/getting-started/navigating-circle-on-desktop",
+      "snippet": "",
+      "section": "basics / getting-started",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_member-management_troubleshooting-password-reset-email-delivery-issues",
+      "title": "Troubleshooting password reset email delivery issues",
+      "url": "https://help.circle.so/p/audience/member-management/troubleshooting-password-reset-email-delivery-issues",
+      "snippet": "",
+      "section": "audience / member-management",
+      "category": "auth",
+      "categories": [
+        "auth",
+        "email",
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_members_account-access-management_troubleshooting-issues-sending-or-receiving-direct-messages",
+      "title": "Troubleshooting issues sending or receiving direct messages",
+      "url": "https://help.circle.so/p/members/account-access-management/troubleshooting-issues-sending-or-receiving-direct-messages",
+      "snippet": "Last updated: January 22, 2026 · Circle's direct messaging feature helps you connect with members privately and in real time. If you’re unable to send or receive messages, it’s usually due to a messaging setting or a block from a specific member",
+      "section": "members / account-access-management",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_audience_onboarding_importing-members-in-bulk",
+      "title": "Importing members in bulk",
+      "url": "https://help.circle.so/p/audience/onboarding/importing-members-in-bulk",
+      "snippet": "",
+      "section": "audience / onboarding",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-setup_manage-downloadable-files-in-lessons",
+      "title": "Manage downloadable files in lessons and quizzes",
+      "url": "https://help.circle.so/p/courses/course-setup/manage-downloadable-files-in-lessons",
+      "snippet": "",
+      "section": "courses / course-setup",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_media-management_media-manager",
+      "title": "Guide to the media manager",
+      "url": "https://help.circle.so/p/basics/media-management/media-manager",
+      "snippet": "Browse and manage media: View and manage media files uploaded by admins, moderators, or members, including images, videos, audio, and documents.",
+      "section": "basics / media-management",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-setup_course-directory",
+      "title": "Get to know the course directory",
+      "url": "https://help.circle.so/p/courses/course-setup/course-directory",
+      "snippet": "",
+      "section": "courses / course-setup",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_community-access_different-ways-to-configure-community-access-and-visibility",
+      "title": "Different ways to configure community access and visibility",
+      "url": "https://help.circle.so/p/basics/community-access/different-ways-to-configure-community-access-and-visibility",
+      "snippet": "",
+      "section": "basics / community-access",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_media-management_video-settings",
+      "title": "Video settings: Thumbnails, downloads, and transcripts",
+      "url": "https://help.circle.so/p/basics/media-management/video-settings",
+      "snippet": "Only admins can manage thumbnails, download restrictions, and transcripts through the video settings on the desktop app, web browser, or mobile browser.",
+      "section": "basics / media-management",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_mobile-apps_add-mobile-app-friendly-cover-images-to-spaces",
+      "title": "Add mobile app friendly cover images to spaces",
+      "url": "https://help.circle.so/p/basics/mobile-apps/add-mobile-app-friendly-cover-images-to-spaces",
+      "snippet": "When adding a cover image to eligible spaces in your community, you also have the option to add a mobile thumbnail image designed for mobile devices. These thumbnails are visible and supported on mobile browsers and the Circle mobile apps.",
+      "section": "basics / mobile-apps",
+      "category": "mobile",
+      "categories": [
+        "mobile",
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_courses_course-setup_set-up-quizzes",
+      "title": "Set up quizzes",
+      "url": "https://help.circle.so/p/courses/course-setup/set-up-quizzes",
+      "snippet": "Supported platforms: Students can take quizzes on all platforms, including desktop and mobile browsers, Circle iOS and Android apps, and Circle Plus branded apps.",
+      "section": "courses / course-setup",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_post-spaces_create-polls",
+      "title": "Create polls",
+      "url": "https://help.circle.so/p/posts/post-spaces/create-polls",
+      "snippet": "💡 Tip: The option to undo poll response is available on all supported platforms including web browsers on both desktop and mobile devices, as well as iOS and Android mobile apps.",
+      "section": "posts / post-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_administration_analytics_posts-and-comments-analytics",
+      "title": "Posts and comments analytics",
+      "url": "https://help.circle.so/p/administration/analytics/posts-and-comments-analytics",
+      "snippet": "Where views are tracked: Post views are tracked across all supported platforms. This includes the desktop app, desktop and mobile browsers, Circle mobile apps, and branded apps.",
+      "section": "administration / analytics",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_spaces_setting-up-a-lock-screen",
+      "title": "Setting up a lock screen",
+      "url": "https://help.circle.so/p/basics/spaces/setting-up-a-lock-screen",
+      "snippet": "Lock screen pages: Build your own pricing or sales page and select it as the landing page for non-space members on web browsers and the Circle desktop app.",
+      "section": "basics / spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_posts_post-spaces_create-a-post",
+      "title": "Create a post",
+      "url": "https://help.circle.so/p/posts/post-spaces/create-a-post",
+      "snippet": "ℹ️ Note: The option to configure post settings is only available if you are an admin or moderator of the space creating this post on a desktop or mobile browser.",
+      "section": "posts / post-spaces",
+      "category": "spaces",
+      "categories": [
+        "spaces"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_basics_getting-started_circle-support-s-guidelines-for-handling-requests-from-community-members",
+      "title": "Circle support’s guidelines for handling requests from community members",
+      "url": "https://help.circle.so/p/basics/getting-started/circle-support-s-guidelines-for-handling-requests-from-community-members",
+      "snippet": "... A community admin is usually the first point of contact when a member needs support.",
+      "section": "basics / getting-started",
+      "category": "members",
+      "categories": [
+        "members"
+      ],
+      "isOverview": false
+    },
+    {
+      "id": "p_chat",
+      "title": "Chat",
+      "url": "https://help.circle.so/p/chat",
+      "snippet": "",
+      "section": "",
+      "category": "other",
+      "categories": [
+        "other"
+      ],
+      "isOverview": true
+    }
+  ]
+}
