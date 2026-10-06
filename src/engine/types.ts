@@ -168,7 +168,10 @@ export interface ProblemCluster {
   category: CategoryId;
   count: number;
   open: number;
+  /** Tickets in the most recent window (see TrendReport.windows). */
   recent: number;
+  /** Tickets in the window before that. */
+  previous: number;
   ticketIds: string[];
 }
 
@@ -200,6 +203,8 @@ export interface TrendReport {
   pending: number;
   resolved: number;
   range: { from: string; to: string };
+  /** Comparison windows used for "recent" vs "previous" (anchored to the newest ticket). */
+  windows: { days: number; recentFrom: string; previousFrom: string };
   byCategory: CountRow<CategoryId>[];
   bySeverity: CountRow<Severity>[];
   byStatus: CountRow<TicketStatus>[];
@@ -210,9 +215,66 @@ export interface TrendReport {
   opportunities: ProactiveOpportunity[];
 }
 
+// ---------------------------------------------------------------------------
+// Product feedback (support → product loop)
+// ---------------------------------------------------------------------------
+
+export type TrendDirection = 'increasing' | 'stable' | 'decreasing';
+
+/** A recurring pattern in the synthetic tickets that is worth raising with Product/Engineering. */
+export interface ProductSignal {
+  /** Same id as the TrendReport problem cluster / opportunity it comes from. */
+  id: string;
+  name: string;
+  category: CategoryId;
+  areaLabel: string;
+  ticketIds: string[];
+  count: number;
+  unresolved: number;
+  trend: { direction: TrendDirection; recent: number; previous: number; windowDays: number; recentFrom: string; previousFrom: string };
+  /** Highest severity among the supporting tickets, plus the full breakdown. */
+  severity: Severity;
+  severityCounts: Partial<Record<Severity, number>>;
+  /** True when at least half of the supporting tickets mention a mobile app. */
+  mobileHeavy: boolean;
+  /** Platforms mentioned in the ticket text (e.g. "mobile app", "iPhone"). */
+  platforms: { label: string; count: number }[];
+  recommendation: string;
+  firstSeen: string;
+  lastSeen: string;
+}
+
+export interface HandoffEvidence {
+  id: string;
+  subject: string;
+  createdAt: string;
+  severity: Severity;
+  status: TicketStatus;
+}
+
+export interface ProductHandoff {
+  engine: string;
+  signalId: string;
+  title: string;
+  problem: string;
+  customerImpact: string[];
+  evidence: HandoffEvidence[];
+  observedPattern: string[];
+  supportTried: string[];
+  suggestedInvestigation: string;
+  priority: { level: 'Low' | 'Medium' | 'High'; route: string; reasons: string[] };
+  relatedDocs: KBArticle[];
+  source: string;
+  humanReview: string;
+  generatedFrom: string;
+}
+
 /** Anything that can play the reasoning role — rules today, an LLM later. */
 export interface SupportEngine {
   name: string;
   analyzeSupportIssue(input: SupportIssueInput, knowledge: KnowledgeBase): Promise<SupportAnalysis>;
   analyzeSupportTrends(tickets: DemoTicket[], knowledge: KnowledgeBase): Promise<TrendReport>;
+  /** Recurring patterns (from the same TrendReport) worth turning into product feedback. */
+  analyzeProductSignals(report: TrendReport, tickets: DemoTicket[]): Promise<ProductSignal[]>;
+  generateProductFeedback(signal: ProductSignal, tickets: DemoTicket[], knowledge: KnowledgeBase): Promise<ProductHandoff>;
 }

@@ -65,9 +65,9 @@ describe('response drafting guardrails', () => {
 describe('swappable reasoning layer', () => {
   it('routes analyzeSupportIssue through the active engine', async () => {
     const fake: SupportEngine = {
+      ...rulesEngine,
       name: 'Fake LLM engine',
       analyzeSupportIssue: async (input, kb) => ({ ...(await rulesEngine.analyzeSupportIssue(input, kb)), engine: 'Fake LLM engine' }),
-      analyzeSupportTrends: rulesEngine.analyzeSupportTrends,
     };
     setSupportEngine(fake);
     try {

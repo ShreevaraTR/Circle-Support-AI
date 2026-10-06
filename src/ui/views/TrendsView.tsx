@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { DEMO_TICKETS } from '../../data/demoTickets';
 import { KNOWLEDGE_BASE } from '../../data/knowledge';
-import { analyzeSupportTrends } from '../../engine';
+import { analyzeProductSignals, analyzeSupportTrends } from '../../engine';
 import type { CountRow, Severity, TrendReport } from '../../engine/types';
 import { DemoBanner, formatDate, Icon, ProvenanceBadge } from '../components/shared';
 
@@ -15,8 +15,13 @@ const STATUS_COLOR: Record<string, string> = { open: 'var(--accent)', pending: '
 
 export function TrendsView() {
   const [report, setReport] = useState<TrendReport | null>(null);
+  const [signalIds, setSignalIds] = useState<Set<string>>(new Set());
   useEffect(() => {
-    void analyzeSupportTrends(DEMO_TICKETS, KNOWLEDGE_BASE).then(setReport);
+    void analyzeSupportTrends(DEMO_TICKETS, KNOWLEDGE_BASE).then(async (r) => {
+      setReport(r);
+      const signals = await analyzeProductSignals(r, DEMO_TICKETS);
+      setSignalIds(new Set(signals.map((s) => s.id)));
+    });
   }, []);
   if (!report) return null;
 
@@ -171,7 +176,14 @@ export function TrendsView() {
         <div className="card opportunity" key={o.id} data-testid="opportunity">
           <div className="opp-head">
             <strong>{i + 1}. {o.title}</strong>
-            <span className="small muted">{o.impact}</span>
+            <span className="row">
+              <span className="small muted">{o.impact}</span>
+              {signalIds.has(o.id) && (
+                <a className="btn btn-sm btn-primary" href={`#/feedback/${o.id}`} data-testid="generate-feedback">
+                  <Icon name="feedback" size={13} /> Generate Product Feedback
+                </a>
+              )}
+            </span>
           </div>
           <div>
             <div className="opp-step"><Icon name="alert" size={13} /> Problem</div>

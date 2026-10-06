@@ -76,10 +76,11 @@ export function analyzeTrendsWithRules(tickets: DemoTicket[], kb: KnowledgeBase,
   const clusters = new Map<string, ProblemCluster>();
   for (const t of tickets) {
     const p = problemForTicket(t);
-    const c = clusters.get(p.id) ?? { id: p.id, label: p.label, category: t.category, count: 0, open: 0, recent: 0, ticketIds: [] };
+    const c = clusters.get(p.id) ?? { id: p.id, label: p.label, category: t.category, count: 0, open: 0, recent: 0, previous: 0, ticketIds: [] };
     c.count++;
     if (isUnresolved(t)) c.open++;
     if (isRecent(t)) c.recent++;
+    if (isPrevious(t)) c.previous++;
     c.ticketIds.push(t.id);
     clusters.set(p.id, c);
   }
@@ -152,6 +153,11 @@ export function analyzeTrendsWithRules(tickets: DemoTicket[], kb: KnowledgeBase,
     pending: tickets.filter((t) => t.status === 'pending').length,
     resolved: tickets.filter((t) => t.status === 'resolved').length,
     range: { from: new Date(from).toISOString().slice(0, 10), to: new Date(to).toISOString().slice(0, 10) },
+    windows: {
+      days: RECENT_DAYS,
+      recentFrom: new Date(recentStart).toISOString().slice(0, 10),
+      previousFrom: new Date(previousStart).toISOString().slice(0, 10),
+    },
     byCategory,
     bySeverity,
     byStatus,

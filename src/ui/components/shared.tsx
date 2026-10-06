@@ -11,6 +11,7 @@ export type Route =
   | { view: 'trends' }
   | { view: 'tickets' }
   | { view: 'knowledge' }
+  | { view: 'feedback'; signalId?: string }
   | { view: 'about' };
 
 export function parseHash(hash: string): Route {
@@ -23,12 +24,15 @@ export function parseHash(hash: string): Route {
       return { view };
     case 'copilot':
       return { view: 'copilot', ticketId: arg ? decodeURIComponent(arg) : undefined };
+    case 'feedback':
+      return { view: 'feedback', signalId: arg ? decodeURIComponent(arg) : undefined };
     default:
       return { view: 'copilot' };
   }
 }
 
-export const hrefFor = (r: Route) => (r.view === 'copilot' && r.ticketId ? `#/copilot/${r.ticketId}` : `#/${r.view}`);
+export const hrefFor = (r: Route) =>
+  r.view === 'copilot' && r.ticketId ? `#/copilot/${r.ticketId}` : r.view === 'feedback' && r.signalId ? `#/feedback/${r.signalId}` : `#/${r.view}`;
 
 export function useHashRoute(): Route {
   const [route, setRoute] = useState(() => parseHash(window.location.hash));
@@ -50,6 +54,7 @@ const ICONS: Record<string, ReactNode> = {
   tickets: <path d="M4 7a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 000 4v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2a2 2 0 000-4V7zM9 5v12" />,
   knowledge: <path d="M4 5a2 2 0 012-2h13v16H6a2 2 0 00-2 2V5zM4 19a2 2 0 012-2h13M8 7h7" />,
   about: <path d="M12 21a9 9 0 100-18 9 9 0 000 18zM12 11v5M12 8h.01" />,
+  feedback: <path d="M4 5h16v10H9l-5 4V5zM8 9h8M8 12h5" />,
   copy: <path d="M9 9h10v10H9zM5 15V5h10" />,
   check: <path d="M5 12l5 5L20 7" />,
   external: <path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 01-1 1H5a1 1 0 01-1-1V7a1 1 0 011-1h5" />,

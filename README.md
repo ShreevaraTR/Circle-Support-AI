@@ -18,6 +18,7 @@ Customer issue → Issue classification → Relevant Circle knowledge → Troubl
 |---|---|
 | **Support Copilot** | Classifies an issue into one of 12 categories and a narrower problem type. Assesses severity, lists likely causes and gives a troubleshooting checklist where each step is tagged *Doc-backed* (with a link) or *General practice*. Drafts an editable reply, cites public Help Center articles and recommends an escalation level. A "Why this classification?" panel shows the matched terms and signals. |
 | **Support Trends** | Dashboard over 50 synthetic tickets: KPIs, top categories, weekly volume, open vs resolved, severity breakdown, trending issues (most recent 14 days vs the previous 14), most common problems, and **Proactive Support Opportunities** (problem → evidence with ticket IDs → recommended action). |
+| **Product Feedback** | Turns recurring patterns from the *same* Support Trends analysis (3+ related synthetic tickets) into product signals: trend, severity, affected area, supporting `DEMO-###` tickets and a prototype investigation recommendation. **Generate Product Handoff** builds a 10-section report (title, problem, impact, evidence, pattern, what support tried, suggested investigation, priority, source, human review). **Copy for Slack / Copy for Jira / Copy report** only copy formatted text — there are no integrations. Reachable from the sidebar and from each Support Trends opportunity (**Generate Product Feedback**). |
 | **Demo Tickets** | Filterable list of `DEMO-001`–`DEMO-050`. Clicking a ticket opens it in the Copilot and analyses it. |
 | **Knowledge Base** | 295 public Circle Help Center articles (title, URL, search excerpt), searchable and filterable by category. |
 | **Escalation** | No escalation / First-line troubleshooting / Escalate to specialist / Escalate to engineering, each with reasons and "escalate further if" triggers. Labelled *Prototype recommendation*. |
@@ -51,6 +52,9 @@ src/
       retrieve.ts       Knowledge retrieval (playbook-pinned docs + lexical scoring)
       analyze.ts        Severity, escalation, summary, response drafting
       trends.ts         Trend & opportunity analysis
+      feedback.ts       Product signals + handoff (reuses trend clusters and per-ticket analysis)
+      productSignals.ts Product-facing framing per problem type
+    feedbackFormat.ts   Slack / Jira / Markdown text exports
   data/
     knowledge.json      Build-time index of public Help Center articles
     demoTickets.ts      50 synthetic tickets
@@ -59,7 +63,7 @@ scripts/build-kb.mjs    Rebuilds knowledge.json
 tests/                  Vitest: engine, trends, integrity, UI workflow
 ```
 
-**Swappable reasoning layer.** The UI only calls `analyzeSupportIssue()` and `analyzeSupportTrends()`. Both are async and return typed objects. To use an LLM later, implement the `SupportEngine` interface and call `setSupportEngine(llmEngine)`. No UI changes are needed. A test proves this by swapping in a fake engine.
+**Swappable reasoning layer.** The UI only calls `analyzeSupportIssue()`, `analyzeSupportTrends()`, `analyzeProductSignals()` and `generateProductFeedback()`. Both are async and return typed objects. To use an LLM later, implement the `SupportEngine` interface and call `setSupportEngine(llmEngine)`. No UI changes are needed. A test proves this by swapping in a fake engine.
 
 ## Knowledge index: how it was built
 
@@ -79,7 +83,7 @@ npm run kb:recategorize   # offline: re-run categorisation over the existing JSO
 ```bash
 npm install
 npm run dev        # http://localhost:5173
-npm test           # 37 tests
+npm test           # 52 tests
 npm run build      # static site in dist/
 npm run preview    # serve the production build
 ```
@@ -98,3 +102,4 @@ Everything is free to run: there are no paid APIs, no backend and no runtime net
 - **Prototype policy.** Escalation and severity rules are illustrative and are not Circle's actual policies.
 - **Synthetic trends.** The trend analysis runs on synthetic data only. The patterns were designed in so the dashboard has something to find.
 - **One language.** The prototype is English-only.
+- **Product Feedback is prototype logic.** Signal priority and investigation suggestions are rules applied to synthetic tickets. The tickets carry no conversation history, so "What support tried" shows this prototype's playbook steps, not recorded actions.

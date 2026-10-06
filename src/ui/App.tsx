@@ -6,12 +6,14 @@ import { hrefFor, Icon, useHashRoute, type Route } from './components/shared';
 import { AboutView } from './views/AboutView';
 import { CopilotView } from './views/CopilotView';
 import { KnowledgeView } from './views/KnowledgeView';
+import { ProductFeedbackView } from './views/ProductFeedbackView';
 import { TicketsView } from './views/TicketsView';
 import { TrendsView } from './views/TrendsView';
 
 const NAV: { route: Route; label: string; icon: string; count?: number }[] = [
   { route: { view: 'copilot' }, label: 'Copilot', icon: 'copilot' },
   { route: { view: 'trends' }, label: 'Support Trends', icon: 'trends' },
+  { route: { view: 'feedback' }, label: 'Product Feedback', icon: 'feedback' },
   { route: { view: 'knowledge' }, label: 'Knowledge Base', icon: 'knowledge', count: KNOWLEDGE_BASE.articles.length },
   { route: { view: 'tickets' }, label: 'Demo Tickets', icon: 'tickets', count: DEMO_TICKETS.length },
   { route: { view: 'about' }, label: 'About', icon: 'about' },
@@ -19,7 +21,8 @@ const NAV: { route: Route; label: string; icon: string; count?: number }[] = [
 
 export function App() {
   const route = useHashRoute();
-  const routeKey = route.view === 'copilot' ? `copilot/${route.ticketId ?? ''}` : route.view;
+  const routeKey =
+    route.view === 'copilot' ? `copilot/${route.ticketId ?? ''}` : route.view === 'feedback' ? `feedback/${route.signalId ?? ''}` : route.view;
   const prevView = useRef(route.view);
 
   // Each view opens at the top — otherwise a ticket clicked low in the list opens the
@@ -75,6 +78,7 @@ export function App() {
           {route.view === 'trends' && <TrendsView />}
           {route.view === 'tickets' && <TicketsView />}
           {route.view === 'knowledge' && <KnowledgeView />}
+          {route.view === 'feedback' && <ProductFeedbackView signalId={route.signalId} />}
           {route.view === 'about' && <AboutView />}
         </main>
       </div>
